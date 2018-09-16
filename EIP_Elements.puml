@@ -1,0 +1,31 @@
+/' General Stylung 
+'/
+
+skinparam defaultTextAlignment center
+
+/' EIP Pattern: Message Channel 
+'/
+
+!define MsgChannel(_alias) rectangle "<img:images/queue.png>\r" as _alias <<message channel>> 
+!define MsgChannel(_alias, _label) rectangle "<img:images/queue.png>\r _label" as _alias <<message channel>> 
+
+/' EIP Pattern: Point-to-Point Channel 
+'/
+!define P2PChannel(_alias) rectangle "<img:images/queue.png>\r" as _alias <<point-to-point channel>> 
+!define P2PChannel(_alias, _label) rectangle "<img:images/queue.png>\r _label" as _alias <<point-to-point channel>> 
+
+/' EIP Pattern: Publish-Subscribe Channel 
+'/
+!define PubSubChannel(_alias) rectangle "<img:images/queue.png>\r" as _alias <<publish-subscribe channel>> 
+!define PubSubChannel(_alias, _label) rectangle "<img:images/queue.png>\r _label" as _alias <<publish-subscribe channel>> 
+
+'/ EIP Pattern: Messaging Bridge
+'/
+!define MsgBridge(_alias) rectangle "<img:images/bridge.png>\r" as _alias <<messaging bridge>> 
+!define MsgBridge(_alias, _label) rectangle "<img:images/bridge.png>\r _label" as _alias <<messaging bridge>> 
+
+'/ Relations 
+'/
+
+!define Send(_from, _to) _from --> _to  
+
