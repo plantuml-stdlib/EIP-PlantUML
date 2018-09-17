@@ -6,21 +6,21 @@ EIP-PlantUML provides [Enterprise Integrations Patterns](https://www.enterprisei
 
 You will need to download the 'EIP-PLantUML.puml' file as well as the subfolder 'sprites' locally. 
 
-At the top of your EIP PLantUML model you need to include the 'EIP-PlantUML.puml' file.
+At the top of your EIP PLantUML model you need to include the `EIP-PlantUML.puml` file.
 
-'''c#
+```c#
 !include ../EIP-PLantUML/EIP-PLantUML.puml
-'''
-After including the 'EIP-PLantUML.puml' file you can start using the EIP patterns. 
+```
+After including the `EIP-PLantUML.puml` file you can start using the EIP patterns. 
 
-'''c#
+```c#
 MsgChannel(channel1, "Channel 1")
 MsgChannel(channel2, "Channel 2")
 Message(msg, "Message")
 
 Send(channel1, msg)
 Send(msg, channel2)
-'''
-(images/message_example.png)
+```
+![Message Example](images/message_example.png)
 
 ## Acknowledgments
