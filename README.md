@@ -31,18 +31,18 @@ Send(msg, channel2)
 ## Supported Pattern 
 The following pattern are currently supported:
 * Message 
-    * Message(alias [,label])
+   * `Message(alias [,label])`
 * Command Message
-    * CommandMessage(alias [,label])
+    * `CommandMessage(alias [,label])`
 * Document Message
-    * DocumentMessage(alias [,label])
+    * `DocumentMessage(alias [,label])`
 
 * Messaging Channel
-    * MsgChannel(alias [,label])
+    * `MsgChannel(alias [,label])`
 * Point-to-Point Channel
-    * P2PChannel(alias, [,label] )
+    * `P2PChannel(alias, [,label] )`
 * Publish-Subscribe Channel
-    * PubSubChannel(alias [,label])
+    * `PubSubChannel(alias [,label])`
     
 
 ## Background
