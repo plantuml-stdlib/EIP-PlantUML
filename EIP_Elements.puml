@@ -7,13 +7,19 @@
 
 skinparam defaultTextAlignment center
 
-/'
+/' 
+    ##################
     Message Construct 
+    ##################
 '/
 
 /' Message '/
 !define Message(_alias) rectangle "<$message>\r" as _alias <<message>> 
 !define Message(_alias, _label) rectangle "<$message>\r _label" as _alias <<message>> 
+
+/' Command Message '/
+!define CommandMessage(_alias) rectangle "<$command_message>\r" as _alias <<command message>> 
+!define CommandMessage(_alias, _label) rectangle "<$command_message>\r _label" as _alias <<command message>> 
 
 
 /' EIP Pattern: Message Channel 
