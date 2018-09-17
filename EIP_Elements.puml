@@ -1,25 +1,36 @@
 !include sprites/bridge.puml
 !include sprites/message.puml
 !include sprites/queue.puml
+!include sprites/message.puml
+!include sprites/command_message.puml
+!include sprites(document_message.puml)
 
-/' General Stylung 
-'/
+/' General Styling '/
 
 skinparam defaultTextAlignment center
 
-/' 
-    ##################
+/' ##################
     Message Construct 
-    ##################
+    ################## 
 '/
 
-/' Message '/
+/'  EIP Pattern: Message 
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/Message.html
+'/
 !define Message(_alias) rectangle "<$message>\r" as _alias <<message>> 
 !define Message(_alias, _label) rectangle "<$message>\r _label" as _alias <<message>> 
 
-/' Command Message '/
+/'  EIP Pattern: Command Message
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/CommandMessage.html 
+'/
 !define CommandMessage(_alias) rectangle "<$command_message>\r" as _alias <<command message>> 
 !define CommandMessage(_alias, _label) rectangle "<$command_message>\r _label" as _alias <<command message>> 
+
+/'  EIP Pattern: Document Message
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/DocumentMessage.html 
+'/
+!define DocumentMessage(_alias) rectangle "<$document_message>\r" as _alias <<document message>> 
+!define DocumentMessage(_alias, _label) rectangle "<$document_message>\r _label" as _alias <<document message>> 
 
 
 /' EIP Pattern: Message Channel 
