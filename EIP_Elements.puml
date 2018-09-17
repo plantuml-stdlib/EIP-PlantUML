@@ -1,6 +1,6 @@
-!include images/bridge.puml
-!include images/message.puml
-!include images/queue.puml
+!include sprites/bridge.puml
+!include sprites/message.puml
+!include sprites/queue.puml
 
 /' General Stylung 
 '/
