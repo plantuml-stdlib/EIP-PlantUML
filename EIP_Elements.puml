@@ -3,7 +3,7 @@
 !include sprites/queue.puml
 !include sprites/message.puml
 !include sprites/command_message.puml
-!include sprites(document_message.puml)
+!include sprites/document_message.puml
 
 /' General Styling '/
 

@@ -28,6 +28,23 @@ Send(msg, channel2)
 ```
 ![Message Example](images/message_example.png)
 
+## Supported Pattern 
+The following pattern are currently supported:
+* Message 
+    * Message(alias [,label])
+* Command Message
+    * CommandMessage(alias [,label])
+* Document Message
+    * DocumentMessage(alias [,label])
+
+* Messaging Channel
+    * MsgChannel(alias [,label])
+* Point-to-Point Channel
+    * P2PChannel(alias, [,label] )
+* Publish-Subscribe Channel
+    * PubSubChannel(alias [,label])
+    
+
 ## Background
 Enterprise Intergartion Patterns are a set of 65 patterns, mainly based on messaging concepts introduced Gregor Hohpe and Bobby Woolf. The Website [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com/) provides an extensive overview of these patterns. 
 
