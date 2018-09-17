@@ -4,4 +4,4 @@ EIP-PlantUML provides [Enterprise Integrations Patterns](https://www.enterprisei
 
 ## Getting Started
 
-##Acknowledgments
+## Acknowledgments
