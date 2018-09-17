@@ -1,10 +1,20 @@
 !include images/bridge.puml
+!include images/message.puml
 !include images/queue.puml
 
 /' General Stylung 
 '/
 
 skinparam defaultTextAlignment center
+
+/'
+    Message Construct 
+'/
+
+/' Message '/
+!define Message(_alias) rectangle "<$message>\r" as _alias <<message>> 
+!define Message(_alias, _label) rectangle "<$message>\r _label" as _alias <<message>> 
+
 
 /' EIP Pattern: Message Channel 
 '/
