@@ -9,14 +9,15 @@ Please bear in mind this repository is currently Work in Progress - therefore ne
 
 ## Getting Started
 
-You will need to download the `EIP-PLantUML.puml` file as well as the subfolder 'sprites' locally. 
+You will need to download the `EIP-PLantUML.puml` file from the dist folder.  
+This files includes everything you need to use the EIP patterns in your PlantUML diagramms.
 
-At the top of your EIP PLantUML model you need to include the `EIP-PlantUML.puml` file.
+At the top of your PlantUML model you need to include the `EIP-PlantUML.puml` file.
 
 ```c#
-!include ../EIP-PLantUML/EIP-PLantUML.puml
+!include ../EIP-PlantUML/EIP-PlantUML.puml
 ```
-After including the `EIP-PLantUML.puml` file you can start using the EIP patterns. 
+After including the `EIP-PlantUML.puml` file you can start using the EIP patterns as shown below. 
 
 ```c#
 MsgChannel(channel1, "Channel 1")
