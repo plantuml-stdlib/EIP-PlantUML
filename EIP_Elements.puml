@@ -5,6 +5,7 @@
 !include sprites/command_message.puml
 !include sprites/document_message.puml
 !include sprites/event_message.puml
+!include sprites/channel_purger.pumls
 
 /' General Styling '/
 
@@ -60,6 +61,12 @@ skinparam defaultTextAlignment center
 '/
 !define MsgBridge(_alias) rectangle "<$bridge>" as _alias <<messaging bridge>> 
 !define MsgBridge(_alias, _label) rectangle "<$bridge>\r _label" as _alias <<messaging bridge>> 
+
+/'  EIP Pattern: Event Message
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/ChannelPurger.html
+'/
+!define ChannelPurger(_alias) rectangle "<$channel_purger>\r" as _alias <<channel purger>> 
+!define ChannelPurger(_alias, _label) rectangle "<$channel_purger>\r _label" as _alias <<channel purger>> 
 
 
 
