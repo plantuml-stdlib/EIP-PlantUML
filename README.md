@@ -40,7 +40,7 @@ The following pattern are currently supported:
 * Messaging Channel
     * `MsgChannel(alias [,label])`
 * Point-to-Point Channel
-    * `P2PChannel(alias, [,label] )`
+    * `P2PChannel(alias [,label] )`
 * Publish-Subscribe Channel
     * `PubSubChannel(alias [,label])`
     
