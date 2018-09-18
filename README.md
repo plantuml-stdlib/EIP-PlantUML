@@ -46,7 +46,8 @@ The following pattern are currently supported:
     * `P2PChannel(alias [,label] )`
 * Publish-Subscribe Channel
     * `PubSubChannel(alias [,label])`
-    
+ * Channel Purger
+    * `ChannelPurger(alias [,label])`   
 
 ## Background
 Enterprise Intergartion Patterns are a set of 65 patterns, mainly based on messaging concepts introduced Gregor Hohpe and Bobby Woolf. The Website [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com/) provides an extensive overview of these patterns. 
