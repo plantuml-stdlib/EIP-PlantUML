@@ -37,6 +37,8 @@ The following pattern are currently supported:
     * `CommandMessage(alias [,label])`
 * Document Message
     * `DocumentMessage(alias [,label])`
+* Event Message
+    * `EventMessage(alias [,label])`
 
 * Messaging Channel
     * `MsgChannel(alias [,label])`

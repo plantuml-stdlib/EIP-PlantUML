@@ -4,6 +4,7 @@
 !include sprites/message.puml
 !include sprites/command_message.puml
 !include sprites/document_message.puml
+!include sprites/event_message.puml
 
 /' General Styling '/
 
@@ -32,6 +33,12 @@ skinparam defaultTextAlignment center
 !define DocumentMessage(_alias) rectangle "<$document_message>\r" as _alias <<document message>> 
 !define DocumentMessage(_alias, _label) rectangle "<$document_message>\r _label" as _alias <<document message>> 
 
+/'  EIP Pattern: Event Message
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/EventMessage.html
+'/
+!define EventMessage(_alias) rectangle "<$event_message>\r" as _alias <<event message>> 
+!define EventMessage(_alias, _label) rectangle "<$event_message>\r _label" as _alias <<event message>> 
+
 
 /' EIP Pattern: Message Channel 
 '/
@@ -53,6 +60,8 @@ skinparam defaultTextAlignment center
 '/
 !define MsgBridge(_alias) rectangle "<$bridge>" as _alias <<messaging bridge>> 
 !define MsgBridge(_alias, _label) rectangle "<$bridge>\r _label" as _alias <<messaging bridge>> 
+
+
 
 '/ Relations 
 '/
