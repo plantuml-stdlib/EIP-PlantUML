@@ -2,7 +2,7 @@
 
 EIP-PlantUML provides [Enterprise Integrations Patterns](https://www.enterpriseintegrationpatterns.com/) elements to [PlantUML](http://plantuml.com/) to provide easy support of designing EIP architectures for both, up-front design as well as development-time automated documentation generation.  
 
-## Warning 
+## Important Information 
 
 Please bear in mind this repository is currently Work in Progress - therefore new features are added regularly and breaking changes might be introduced more often than not. 
 
@@ -44,6 +44,8 @@ The following pattern are currently supported:
     * `EventMessage(alias [,label])`
 * Request-Reply
     * `RequestReply(alias [,label])`
+* Return Address
+    * `ReturnAddress(alias [,label])`
 
 ### Messaging Channels
 
