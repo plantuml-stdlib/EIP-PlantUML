@@ -40,6 +40,20 @@ skinparam defaultTextAlignment center
 !define EventMessage(_alias) rectangle "<$event_message>\r" as _alias <<event message>> 
 !define EventMessage(_alias, _label) rectangle "<$event_message>\r _label" as _alias <<event message>> 
 
+/'  EIP Pattern: Request-Reply
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/RequestReply.html
+'/
+!define RequestReply(_alias) rectangle "<$request_reply>\r" as _alias <<request-reply>> 
+!define RequestReply(_alias, _label) rectangle "<$request_reply>\r _label" as _alias <<request-reply>> 
+
+
+
+/'  EIP Pattern: Return Address
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/ReturnAddress.html
+'/
+!define ReturnAddress(_alias) rectangle "<$return_address>\r" as _alias <<return address>> 
+!define ReturnAddress(_alias, _label) rectangle "<$return_address>\r _label" as _alias <<return address>> 
+
 
 /' EIP Pattern: Message Channel 
 '/
@@ -56,6 +70,8 @@ skinparam defaultTextAlignment center
 '/
 !define PubSubChannel(_alias) rectangle "<$queue>\r" as _alias <<publish-subscribe channel>> 
 !define PubSubChannel(_alias, _label) rectangle "<$queue>\r _label" as _alias <<publish-subscribe channel>> 
+
+
 
 '/ EIP Pattern: Messaging Bridge
 '/
