@@ -16,8 +16,12 @@ foreach(var s in sprites) {
     distFile.WriteLine(spriteContent);
     distFile.WriteLine();
 }
+
+System.Console.WriteLine(sprites.Length + " sprites merged");
+
 distFile.WriteLine(eipPuml);
 
 distFile.Flush();
 distFile.Close();
 
+System.Console.WriteLine("Merging finished")

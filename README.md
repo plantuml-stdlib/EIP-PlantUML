@@ -31,6 +31,9 @@ Send(msg, channel2)
 
 ## Supported Pattern 
 The following pattern are currently supported:
+
+### Message Construction
+
 * Message 
    * `Message(alias [,label])`
 * Command Message
@@ -39,12 +42,20 @@ The following pattern are currently supported:
     * `DocumentMessage(alias [,label])`
 * Event Message
     * `EventMessage(alias [,label])`
+* Request-Reply
+    * `RequestReply(alias [,label])`
+
+### Messaging Channels
+
  * Messaging Channel
     * `MsgChannel(alias [,label])`
 * Point-to-Point Channel
     * `P2PChannel(alias [,label] )`
 * Publish-Subscribe Channel
     * `PubSubChannel(alias [,label])`
+
+### System Managmenet
+
  * Channel Purger
     * `ChannelPurger(alias [,label])` 
     
