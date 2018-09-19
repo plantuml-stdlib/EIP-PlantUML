@@ -37,13 +37,16 @@ The following pattern are currently supported:
     * `CommandMessage(alias [,label])`
 * Document Message
     * `DocumentMessage(alias [,label])`
-
-* Messaging Channel
+* Event Message
+    * `EventMessage(alias [,label])`
+ * Messaging Channel
     * `MsgChannel(alias [,label])`
 * Point-to-Point Channel
     * `P2PChannel(alias [,label] )`
 * Publish-Subscribe Channel
     * `PubSubChannel(alias [,label])`
+ * Channel Purger
+    * `ChannelPurger(alias [,label])` 
     
 
 ## Background
