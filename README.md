@@ -28,6 +28,7 @@ Send(channel1, msg)
 Send(msg, channel2)
 ```
 ![Message Example](images/message_example.png)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Faheil%2FEIP-PlantUML.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Faheil%2FEIP-PlantUML?ref=badge_shield)
 
 ## Supported Pattern 
 The following pattern are currently supported:
@@ -80,3 +81,7 @@ The [C4 Model](http://c4model.com/) is a elegant way introduced by Simon Brow fo
 
 ## Acknowledgments
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Faheil%2FEIP-PlantUML.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Faheil%2FEIP-PlantUML?ref=badge_large)
