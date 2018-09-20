@@ -54,6 +54,12 @@ skinparam defaultTextAlignment center
 !define ReturnAddress(_alias) rectangle "<$return_address>\r" as _alias <<return address>> 
 !define ReturnAddress(_alias, _label) rectangle "<$return_address>\r _label" as _alias <<return address>> 
 
+/'  EIP Pattern: Return Address
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageSequence.html
+'/
+!define MessageSequence(_alias) rectangle "<$message_sequence>\r" as _alias <<message sequence>> 
+!define MessageSequence(_alias, _label) rectangle "<$message_sequence>\r _label" as _alias <<message sequence>> 
+
 
 /' EIP Pattern: Message Channel 
 '/
