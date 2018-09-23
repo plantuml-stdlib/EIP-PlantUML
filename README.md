@@ -47,6 +47,8 @@ The following pattern are currently supported:
     * `RequestReply(alias [,label])`
 * Return Address
     * `ReturnAddress(alias [,label])`
+* Correlation Identifer
+    * `CorrelationIdentifier(alias [,label])`
 * Message Sequence
     * `MessageSequence(alias [,label])`
 

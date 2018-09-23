@@ -46,15 +46,20 @@ skinparam defaultTextAlignment center
 !define RequestReply(_alias) rectangle "<$request_reply>\r" as _alias <<request-reply>> 
 !define RequestReply(_alias, _label) rectangle "<$request_reply>\r _label" as _alias <<request-reply>> 
 
-
-
 /'  EIP Pattern: Return Address
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/ReturnAddress.html
 '/
 !define ReturnAddress(_alias) rectangle "<$return_address>\r" as _alias <<return address>> 
 !define ReturnAddress(_alias, _label) rectangle "<$return_address>\r _label" as _alias <<return address>> 
 
-/'  EIP Pattern: Return Address
+/'  EIP Pattern: Correlation Identifier
+    Link https://www.enterpriseintegrationpatterns.com/patterns/messaging/CorrelationIdentifier.html
+'/
+!define CorrelationIdentifier(_alias) rectangle "<$correlation_identifier>\r" as _alias <<correlation identifier>> 
+!define CorrelationIdentifier(_alias, _label) rectangle "<$correlation_identifier>\r _label" as _alias <<correlation identifier>> 
+
+
+/'  EIP Pattern: Message Sequence
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageSequence.html
 '/
 !define MessageSequence(_alias) rectangle "<$message_sequence>\r" as _alias <<message sequence>> 
