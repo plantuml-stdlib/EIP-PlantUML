@@ -83,8 +83,10 @@ The [C4 Model](http://c4model.com/) is a elegant way introduced by Simon Brow fo
 [@aheil](https://twitter.com/aheil)\
 [#eipplantuml](https://twitter.com/hashtag/eipplantuml?src=hash)
 
-## Acknowledgments
-
+## Further References
+* [AWS-PLantUML](https://github.com/milo-minderbinder/AWS-PlantUML)
+* [Office Icons for PlantUML](https://github.com/Roemer/plantuml-office)
+* [Azure-PlantUML](https://github.com/RicardoNiepel/Azure-PlantUML)
 
 
 ## License
