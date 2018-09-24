@@ -11,10 +11,9 @@
 
 skinparam defaultTextAlignment center
 
-/' ##################
-    Message Construct 
-    ################## 
-'/
+/'  ########################################################
+    ################## Message Construct  ################## 
+'/  ########################################################
 
 /'  EIP Pattern: Message 
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/Message.html
@@ -58,44 +57,183 @@ skinparam defaultTextAlignment center
 !define CorrelationIdentifier(_alias) rectangle "<$correlation_identifier>\r" as _alias <<correlation identifier>> 
 !define CorrelationIdentifier(_alias, _label) rectangle "<$correlation_identifier>\r _label" as _alias <<correlation identifier>> 
 
-
 /'  EIP Pattern: Message Sequence
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageSequence.html
 '/
 !define MessageSequence(_alias) rectangle "<$message_sequence>\r" as _alias <<message sequence>> 
 !define MessageSequence(_alias, _label) rectangle "<$message_sequence>\r _label" as _alias <<message sequence>> 
 
-
-/' EIP Pattern: Message Channel 
+/' EIP Pattern: Message Expiration 
+   Link https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageExpiration.html
 '/
 
+/'  EIP Pattern: Format Indicator
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/FormatIndicator.html
+'/
+
+/'  ########################################################
+    ################### Message Routing  ################### 
+'/  ########################################################
+
+/'  EIP Pattern: Pipes-and-Filter
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/PipesAndFilters.html
+'/
+
+/'  EIP Pattern: Message Router
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageRouter.html
+'/
+
+/'  EIP Pattern: Contend-based Router
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/ContentBasedRouter.html
+'/
+
+/'  EIP Pattern: Message Filter
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/Filter.html
+'/
+
+/'  EIP Pattern: Dynamic Router
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/DynamicRouter.html
+'/
+
+
+/'  EIP Pattern: Recipient List
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/RecipientList.html
+'/
+
+/'  EIP Pattern: Splitter
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/Sequencer.html
+'/
+
+/'  EIP Pattern: Aggregator
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/Aggregator.html
+'/
+
+/'  EIP Pattern: Resequencer
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/Resequencer.html
+'/
+
+/'  EIP Pattern: Composed Msg. Processor
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/Resequencer.html
+'/
+
+/'  EIP Pattern: Scatter-Gather
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/BroadcastAggregate.html
+'/
+
+/'  EIP Pattern: Routing Slip
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/RoutingTable.html
+'/
+
+/'  EIP Pattern: Process Manager 
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/ProcessManager.html
+'/
+
+/'  EIP Pattern: Message Broker
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageBroker.html
+'/
+
+/'  ########################################################
+    ################ Message Transformation  ############### 
+'/  ########################################################
+
+/'  ########################################################
+    ################## Message Endpoints  ################## 
+'/  ########################################################
+
+/'  ########################################################
+    ################## Messaging Channels  ################# 
+'/  ########################################################
+
+/'  EIP Pattern: Message Channel 
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageChannel.html
+'/
 !define MsgChannel(_alias) rectangle "<$queue>\r" as _alias <<message channel>> 
 !define MsgChannel(_alias, _label) rectangle "<$queue>\r _label" as _alias <<message channel>> 
 
-/' EIP Pattern: Point-to-Point Channel 
+/'  EIP Pattern: Point-to-Point Channel 
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/PointToPointChannel.html
 '/
 !define P2PChannel(_alias) rectangle "<$queue>\r" as _alias <<point-to-point channel>> 
 !define P2PChannel(_alias, _label) rectangle "<$queue>\r _label" as _alias <<point-to-point channel>> 
 
-/' EIP Pattern: Publish-Subscribe Channel 
+/'  EIP Pattern: Publish-Subscribe Channel 
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/PublishSubscribeChannel.html
 '/
 !define PubSubChannel(_alias) rectangle "<$queue>\r" as _alias <<publish-subscribe channel>> 
 !define PubSubChannel(_alias, _label) rectangle "<$queue>\r _label" as _alias <<publish-subscribe channel>> 
 
+/'  EIP Pattern: Datatype Channel
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/DatatypeChannel.html
+'/
 
+/'  EIP Pattern: Invalid Message Channel 
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/InvalidMessageChannel.html
+'/
 
-'/ EIP Pattern: Messaging Bridge
+/'  EIP Pattern: Dead Letter Channel 
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/DeadLetterChannel.html
+'/
+
+/'  EIP Pattern: Guaranteed Delivery
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/GuaranteedMessaging.html
+'/
+
+/'  EIP Pattern: Channel Adapter 
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/ChannelAdapter.html
+'/
+
+/'  EIP Pattern: Messaging Bridge
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingBridge.html
 '/
 !define MsgBridge(_alias) rectangle "<$bridge>" as _alias <<messaging bridge>> 
 !define MsgBridge(_alias, _label) rectangle "<$bridge>\r _label" as _alias <<messaging bridge>> 
 
-/'  EIP Pattern: Event Message
+/'  EIP Pattern: Message Bus 
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageBus.html
+'/
+
+/'  ########################################################
+    ################## Systems Management  ################# 
+'/  ########################################################
+
+/'  EIP Pattern: Control BUs
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/ControlBus.html
+'/
+
+/'  EIP Pattern: Detour
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/Detour.html
+'/
+
+/'  EIP Pattern: Wire Tap
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/WireTap.html
+'/
+
+/'  EIP Pattern: Message History
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageHistory.html
+'/
+
+/'  EIP Pattern: Message Store
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageStore.html
+'/
+
+/'  EIP Patern: Smart Proxy 
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/SmartProxy.html
+'/
+
+/'  EIP Pattern: Test Message 
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/TestMessage.html 
+'/
+
+/'  EIP Pattern: Channel Purger
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/ChannelPurger.html
 '/
+ 
 !define ChannelPurger(_alias) rectangle "<$channel_purger>\r" as _alias <<channel purger>> 
 !define ChannelPurger(_alias, _label) rectangle "<$channel_purger>\r _label" as _alias <<channel purger>> 
 
-
+/'  ########################################################
+    ######################################################## 
+'/  ########################################################
 
 '/ Relations 
 '/
