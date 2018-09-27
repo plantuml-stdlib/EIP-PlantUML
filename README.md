@@ -51,6 +51,8 @@ The following pattern are currently supported:
     * `CorrelationIdentifier(alias [,label])`
 * Message Sequence
     * `MessageSequence(alias [,label])`
+* Message Expiration
+    * `MessageExpiration(alias [,label])`
 
 ### Messaging Channels
 

@@ -66,6 +66,8 @@ skinparam defaultTextAlignment center
 /' EIP Pattern: Message Expiration 
    Link https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageExpiration.html
 '/
+!define MessageExpiration(_alias) rectangle "<$message_expiration>\r" as _alias <<message expiration>> 
+!define MessageExpiration(_alias, _label) rectangle "<$message_expiration>\r _label" as _alias <<message expiration>> 
 
 /'  EIP Pattern: Format Indicator
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/FormatIndicator.html
