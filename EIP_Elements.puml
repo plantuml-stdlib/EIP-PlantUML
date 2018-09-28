@@ -240,5 +240,7 @@ skinparam defaultTextAlignment center
 '/ Relations 
 '/
 
-!define Send(_from, _to) _from --> _to  
+!define Send(_from, _to) _from --> _to
+
+!define Pipe(_from, _to) _from --> _to : Pipe
 
