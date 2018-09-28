@@ -1,12 +1,3 @@
-!include sprites/bridge.puml
-!include sprites/message.puml
-!include sprites/queue.puml
-!include sprites/message.puml
-!include sprites/command_message.puml
-!include sprites/document_message.puml
-!include sprites/event_message.puml
-!include sprites/channel_purger.pumls
-
 /' General Styling '/
 
 skinparam defaultTextAlignment center
@@ -80,6 +71,8 @@ skinparam defaultTextAlignment center
 /'  EIP Pattern: Pipes-and-Filter
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/PipesAndFilters.html
 '/
+!define Filter(_alias) rectangle "" as _alias <<filter>>
+!define Filter(_alias, _label) rectangel "_label" as _alias <<filter>>
 
 /'  EIP Pattern: Message Router
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageRouter.html
