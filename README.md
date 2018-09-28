@@ -54,6 +54,11 @@ The following pattern are currently supported:
 * Message Expiration
     * `MessageExpiration(alias [,label])`
 
+### Messaging Systems
+* Pipes and Filters
+    * `Pipe(from, to)`
+    * `Filter(alias [,label])`
+
 ### Messaging Channels
 
  * Messaging Channel
