@@ -85,6 +85,9 @@ skinparam defaultTextAlignment center
 /'  EIP Pattern: Contend-based Router
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/ContentBasedRouter.html
 '/
+!define ContentBasedRouter(_alias) rectangle "<$content_based_router>\r" as _alias <<content-based router>> 
+!define ContentBasedRouter(_alias, _label) rectangle "<$content_based_router>\r _label" as _alias <<content-based router>> 
+
 
 /'  EIP Pattern: Message Filter
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/Filter.html
