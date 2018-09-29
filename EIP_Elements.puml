@@ -1,5 +1,7 @@
 /' General Styling '/
 
+!include "sprites/filter.puml" 
+
 skinparam defaultTextAlignment center
 
 /'  ########################################################
@@ -71,12 +73,14 @@ skinparam defaultTextAlignment center
 /'  EIP Pattern: Pipes-and-Filter
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/PipesAndFilters.html
 '/
-!define Filter(_alias) rectangle "" as _alias <<filter>>
-!define Filter(_alias, _label) rectangel "_label" as _alias <<filter>>
+!define Filter(_alias) rectangle " " as _alias <<filter>>
+!define Filter(_alias, _label) rectangle "_label" as _alias <<filter>>
 
 /'  EIP Pattern: Message Router
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageRouter.html
 '/
+!define MessageRouter(_alias) rectangle "<$message_router>\r" as _alias <<message router>> 
+!define MessageRouter(_alias, _label) rectangle "<$message_router>\r _label" as _alias <<message router>> 
 
 /'  EIP Pattern: Contend-based Router
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/ContentBasedRouter.html
