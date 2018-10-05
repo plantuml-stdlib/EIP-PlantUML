@@ -62,7 +62,8 @@ The following pattern are currently supported:
     * `MessageRouter(alias [,label])`
 * Message Filter
     * `MessageFilter(alias [,label])`
-
+* Dynamic Router
+    * `DynamicRouter(alias [,label], dynamicrulebase)`
 
 
 
@@ -79,18 +80,6 @@ The following pattern are currently supported:
 
  * Channel Purger
     * `ChannelPurger(alias [,label])` 
-    
-
-## Background
-Enterprise Intergartion Patterns are a set of 65 patterns, mainly based on messaging concepts introduced Gregor Hohpe and Bobby Woolf. The Website [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com/) provides an extensive overview of these patterns. 
-
-These patterns come in handy when dealing with large scale enterprise architectures especially based on messaging systems. 
-
-While documenting large systems with manual tools like Microsoft Visio takes an enourmous amount of time, [PlantUML](http://plantuml.com/) provides an elegant way of coding such architecures top-down or creating documentation based on your source codes. 
-
-There fore the EIP patterns is designed to support this bottom up documentation. The EIP patterns also play well with the [C4-PlantUML](https://github.com/RicardoNiepel/C4-PlantUML) extension by Ricardo Niepel when it comes to Level 4 of the C4 model. 
-
-The [C4 Model](http://c4model.com/) is a elegant way introduced by Simon Brow for describing and communicating software architectures up-front. 
 
 ## Examples 
 
@@ -114,7 +103,18 @@ Send(dynamicrouter, queue2)
 ```
 results in the graphic below:
 
-![Dynamic Router Example](images/dynamicrouter_example.png)
+![Dynamic Message Router Example](images/dynamicrouter_example.png)
+
+## Background
+Enterprise Intergartion Patterns are a set of 65 patterns, mainly based on messaging concepts introduced Gregor Hohpe and Bobby Woolf. The Website [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com/) provides an extensive overview of these patterns. 
+
+These patterns come in handy when dealing with large scale enterprise architectures especially based on messaging systems. 
+
+While documenting large systems with manual tools like Microsoft Visio takes an enourmous amount of time, [PlantUML](http://plantuml.com/) provides an elegant way of coding such architecures top-down or creating documentation based on your source codes. 
+
+There fore the EIP patterns is designed to support this bottom up documentation. The EIP patterns also play well with the [C4-PlantUML](https://github.com/RicardoNiepel/C4-PlantUML) extension by Ricardo Niepel when it comes to Level 4 of the C4 model. 
+
+The [C4 Model](http://c4model.com/) is a elegant way introduced by Simon Brow for describing and communicating software architectures up-front. 
 
 ## Feedback
 
