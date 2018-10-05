@@ -92,6 +92,30 @@ There fore the EIP patterns is designed to support this bottom up documentation.
 
 The [C4 Model](http://c4model.com/) is a elegant way introduced by Simon Brow for describing and communicating software architectures up-front. 
 
+## Examples 
+
+### Dynamic Message Router 
+The dynamic message router is one of the more complex patterns. To apply this stencil, you must defne the dynamic rule base to be used for this router. 
+
+The following exmaple
+
+```csharp
+rectangle "Dynamic Rulebase" as rulebase
+DynamicRouter(dynamicrouter, "My Dynamic Router", rulebase)
+
+Message(msg, "My Message")
+Send(msg, dynamicrouter)
+
+MsgChannel(queue1, "My Destination 1")
+Send(dynamicrouter, queue1)
+
+MsgChannel(queue2, "My Destination 2")
+Send(dynamicrouter, queue2)
+```
+results in the graphic below:
+
+![Dynamic Router Example](images/dynamicrouter_example.png)
+
 ## Feedback
 
 [@aheil](https://twitter.com/aheil)\

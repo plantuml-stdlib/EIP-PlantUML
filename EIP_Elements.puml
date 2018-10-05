@@ -98,6 +98,17 @@ skinparam defaultTextAlignment center
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/DynamicRouter.html
 '/
 
+' Does require a dynamic rulebase to be linked autoamtically
+!definelong DynamicRouter(_alias, _rulebase) 
+rectangle "<$message_router>\r" as _alias <<dynamic message router>> 
+_alias -- _rulebase
+!enddefinelong
+
+' Does require a dynamic rulebase to be linked autoamtically
+!definelong DynamicRouter(_alias, _label, _rulebase) 
+rectangle "<$message_router>\r _label" as _alias <<dynamic message router>>
+_alias -- _rulebase
+!enddefinelong
 
 /'  EIP Pattern: Recipient List
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/RecipientList.html
