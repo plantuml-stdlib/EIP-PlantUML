@@ -2,6 +2,8 @@
 
 EIP-PlantUML provides [Enterprise Integrations Patterns](https://www.enterpriseintegrationpatterns.com/) elements to [PlantUML](http://plantuml.com/) to provide easy support of designing EIP architectures for both, up-front design as well as development-time automated documentation generation.  
 
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Faheil%2FEIP-PlantUML.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Faheil%2FEIP-PlantUML?ref=badge_shield)
+
 ## Important Information 
 
 Please bear in mind this repository is currently Work in Progress - therefore new features are added regularly and breaking changes might be introduced more often than not. 
@@ -28,7 +30,6 @@ Send(channel1, msg)
 Send(msg, channel2)
 ```
 ![Message Example](images/message_example.png)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Faheil%2FEIP-PlantUML.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Faheil%2FEIP-PlantUML?ref=badge_shield)
 
 ## Supported Pattern 
 The following pattern are currently supported:
@@ -121,6 +122,10 @@ The [C4 Model](http://c4model.com/) is a elegant way introduced by Simon Brow fo
 
 [@aheil](https://twitter.com/aheil)\
 [#eipplantuml](https://twitter.com/hashtag/eipplantuml?src=hash)
+
+## Contribution
+
+If interested in contributing to this project, please make sure to read the [Contribution Guidelines](https://github.com/aheil/EIP-PlantUML/blob/master/CONTRIBUTING.md) first. 
 
 ## Further References
 * [AWS-PLantUML](https://github.com/milo-minderbinder/AWS-PlantUML)
