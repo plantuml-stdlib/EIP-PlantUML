@@ -114,6 +114,10 @@ _alias -- _rulebase
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/RecipientList.html
 '/
 
+!define RecipientList(_alias) rectangle "<$recipient_list>\r" as _alias <<recipient list>> 
+!define RecipientList(_alias, _label) rectangle "<$recipient_list>\r _label" as _alias <<recipient list>> 
+
+
 /'  EIP Pattern: Splitter
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/Sequencer.html
 '/

@@ -64,7 +64,8 @@ The following pattern are currently supported:
     * `MessageFilter(alias [,label])`
 * Dynamic Router
     * `DynamicRouter(alias [,label], dynamicrulebase)`
-
+* Recipient List
+    * `RecipientList(alias [,label], dynamicrulebase)`
 
 
 ### Messaging Channels
