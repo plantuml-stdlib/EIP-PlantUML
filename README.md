@@ -128,7 +128,7 @@ The [C4 Model](http://c4model.com/) is a elegant way introduced by Simon Brow fo
 If interested in contributing to this project, please make sure to read the [Contribution Guidelines](https://github.com/aheil/EIP-PlantUML/blob/master/CONTRIBUTING.md) first. 
 
 ## Further References
-* [AWS-PLantUML](https://github.com/milo-minderbinder/AWS-PlantUML)
+* [AWS-PlantUML](https://github.com/milo-minderbinder/AWS-PlantUML)
 * [Office Icons for PlantUML](https://github.com/Roemer/plantuml-office)
 * [Azure-PlantUML](https://github.com/RicardoNiepel/Azure-PlantUML)
 
