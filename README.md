@@ -67,7 +67,8 @@ The following pattern are currently supported:
     * `DynamicRouter(alias [,label], dynamicrulebase)`
 * Recipient List
     * `RecipientList(alias [,label], dynamicrulebase)`
-
+* Splitter
+    * `Splitter(alias [,label])`
 
 ### Messaging Channels
 
