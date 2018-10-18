@@ -66,7 +66,7 @@ The following pattern are currently supported:
 * Dynamic Router
     * `DynamicRouter(alias [,label], dynamicrulebase)`
 * Recipient List
-    * `RecipientList(alias [,label], dynamicrulebase)`
+    * `RecipientList(alias [,label])`
 * Splitter
     * `Splitter(alias [,label])`
 
