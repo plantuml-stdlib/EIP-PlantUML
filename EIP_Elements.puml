@@ -127,6 +127,10 @@ _alias -- _rulebase
 /'  EIP Pattern: Aggregator
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/Aggregator.html
 '/
+!define Aggregator(_alias) rectangle "<$aggregator>\r" as _alias <<aggregator>>
+!define Aggregator(_alias, _label) rectangle "<$aggregator>\r _label" as _alias <<aggregator>>
+<Paste>
+
 
 /'  EIP Pattern: Resequencer
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/Resequencer.html
