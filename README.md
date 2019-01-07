@@ -70,7 +70,7 @@ The following pattern are currently supported:
 * Splitter
     * `Splitter(alias [,label])`
 * Aggregator
-    * `Aggregator(alias [,label])
+    * `Aggregator(alias [,label])`
 
 ### Messaging Channels
 
