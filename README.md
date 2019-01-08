@@ -71,6 +71,8 @@ The following pattern are currently supported:
     * `Splitter(alias [,label])`
 * Aggregator
     * `Aggregator(alias [,label])`
+* Resequencer
+    * `Resequencer(alias [,label])`
 
 ### Messaging Channels
 

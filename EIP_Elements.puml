@@ -129,12 +129,14 @@ _alias -- _rulebase
 '/
 !define Aggregator(_alias) rectangle "<$aggregator>\r" as _alias <<aggregator>>
 !define Aggregator(_alias, _label) rectangle "<$aggregator>\r _label" as _alias <<aggregator>>
-<Paste>
 
 
 /'  EIP Pattern: Resequencer
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/Resequencer.html
 '/
+!define Resequencer(_alias) rectangle "<$resequencer>\r" as _alias <<resequencer>>
+!define Resequencer(_alias, _label) rectangle "<$resequencer>\r _label" as _alias <<resequencer>>
+
 
 /'  EIP Pattern: Composed Msg. Processor
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/Resequencer.html
