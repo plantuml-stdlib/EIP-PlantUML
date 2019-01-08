@@ -69,6 +69,8 @@ The following pattern are currently supported:
     * `RecipientList(alias [,label])`
 * Splitter
     * `Splitter(alias [,label])`
+* Aggregator
+    * `Aggregator(alias [,label])`
 
 ### Messaging Channels
 
