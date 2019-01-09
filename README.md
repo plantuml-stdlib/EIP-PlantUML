@@ -75,6 +75,10 @@ The following pattern are currently supported:
     * `Resequencer(alias [,label])`
 * Composed Message Processor
     * `ComposedMessageProcessor(alias [,label])`
+* Scatter-Gather
+    * TBD
+* Routing Slip
+    * `Routing Slip(alias [,label])`
 
 ### Messaging Channels
 

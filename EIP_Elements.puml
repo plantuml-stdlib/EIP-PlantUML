@@ -141,6 +141,8 @@ _alias -- _rulebase
 /'  EIP Pattern: Composed Msg. Processor
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/Resequencer.html
 '/
+!define ComposedMessageProcessor(_alias) rectangle "<$composedmessageprocessor>\r" as _alias <<composed msg processor>>
+!define ComposedMessageProcessor(_alias, _label) rectangle "<$composedmessageprocessor>\r _label" as _alias <<composed msg processor>>
 
 /'  EIP Pattern: Scatter-Gather
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/BroadcastAggregate.html
@@ -149,6 +151,9 @@ _alias -- _rulebase
 /'  EIP Pattern: Routing Slip
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/RoutingTable.html
 '/
+!define RoutingSlip(_alias) rectangle "<$routingslip>\r" as _alias <<routing slip>>
+!define RoutingSlip(_alias, _label) rectangle "<$routingslip>\r _label" as _alias <<routing slip>>
+
 
 /'  EIP Pattern: Process Manager 
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/ProcessManager.html
