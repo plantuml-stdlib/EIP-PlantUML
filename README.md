@@ -73,6 +73,8 @@ The following pattern are currently supported:
     * `Aggregator(alias [,label])`
 * Resequencer
     * `Resequencer(alias [,label])`
+* Composed Message Processor
+    * `ComposedMessageProcessor(alias [,label])`
 
 ### Messaging Channels
 
