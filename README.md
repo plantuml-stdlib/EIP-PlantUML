@@ -78,7 +78,9 @@ The following pattern are currently supported:
 * Scatter-Gather
     * TBD
 * Routing Slip
-    * `Routing Slip(alias [,label])`
+    * `RoutingSlip(alias [,label])`
+* Process Manager
+    * `ProcessManager(alias [,label])`
 
 ### Messaging Channels
 
