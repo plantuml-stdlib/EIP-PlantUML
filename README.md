@@ -81,6 +81,8 @@ The following pattern are currently supported:
     * `RoutingSlip(alias [,label])`
 * Process Manager
     * `ProcessManager(alias [,label])`
+* Message Broker
+    * `MessageBroker(alias [,label])`
 
 ### Messaging Channels
 

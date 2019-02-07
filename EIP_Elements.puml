@@ -165,6 +165,8 @@ _alias -- _rulebase
 /'  EIP Pattern: Message Broker
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageBroker.html
 '/
+!define MessageBroker(_alias) rectangle as _alias <<message broker>>
+!define MessageBroker(_alias, _label) rectangle "_label" as _alias <<message broker>>
 
 /'  ########################################################
     ################ Message Transformation  ############### 
