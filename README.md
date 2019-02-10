@@ -87,7 +87,7 @@ The following pattern are currently supported:
 ### Message Transformation
 
 * Message Translator
-    *     * `MessageTranslator(alias [,label])`
+    * `MessageTranslator(alias [,label])`
 
 ### Messaging Channels
 
