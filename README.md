@@ -84,6 +84,11 @@ The following pattern are currently supported:
 * Message Broker
     * `MessageBroker(alias [,label])`
 
+### Message Transformation
+
+* Message Translator
+    *     * `MessageTranslator(alias [,label])`
+
 ### Messaging Channels
 
  * Messaging Channel

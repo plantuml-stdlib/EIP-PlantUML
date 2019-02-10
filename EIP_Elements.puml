@@ -172,6 +172,12 @@ _alias -- _rulebase
     ################ Message Transformation  ############### 
 '/  ########################################################
 
+/'  EIP Pattern: Message Translator
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageTranslator.html
+'/
+!define MessageTranslator(_alias) rectangle as _alias <<message translator>>
+!define MessageTransator(_alias, _label) rectangle "_label" as _alias <<message translator>>
+
 /'  ########################################################
     ################## Message Endpoints  ################## 
 '/  ########################################################
