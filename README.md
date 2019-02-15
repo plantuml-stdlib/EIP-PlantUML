@@ -93,6 +93,8 @@ The following pattern are currently supported:
     * `Unwrapper(alias [,label])`
 * Data Enricher (also Content Enricher)
     * `DataEnricher(alias [,label], datasource)`
+* Content Filter
+    * `ContentFilter(alias [,label])`
 
 ### Messaging Channels
 

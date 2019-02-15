@@ -181,10 +181,10 @@ _alias -- _rulebase
 /'  EIP Pattern: Envelope Wrapper
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/EnvelopeWrapper.html
 '/
-!define Wrapper(_alias) rectangle "<$wrapper>\r" as _alias <<Wrapper>>
-!define Wrapper(_alias, _label) rectangle "_label" "<$wrapper>\r" as _alias <<Wrapper>>
-!define Unwrapper(_alias) rectangle "<$unwrapper>\r" as _alias <<Unwrapper>>
-!define Unwrapper(_alias, _label) rectangle "_label" "<$unwrapper>\r" as _alias <<Unwrapper>>
+!define Wrapper(_alias) rectangle "<$wrapper>\r" as _alias <<wrapper>>
+!define Wrapper(_alias, _label) rectangle "_label" "<$wrapper>\r" as _alias <<wrapper>>
+!define Unwrapper(_alias) rectangle "<$unwrapper>\r" as _alias <<unwrapper>>
+!define Unwrapper(_alias, _label) rectangle "_label" "<$unwrapper>\r" as _alias <<unwrapper>>
 
 /'  EIP Pattern: Data Enricher
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/DataEnricher.html
@@ -200,6 +200,12 @@ _alias -- _datasource
 rectangle "<$data_enricher>\r _label" as _alias <<data enricher>>
 _alias -- _datasource
 !enddefinelong
+
+/'  EIP Pattern: Content Filter
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/ContentFilter.html
+'/
+!define ContentFilter(_alias) rectangle "<$content_filter>\r" as _alias <<content filter>>
+!define ContentFilter(_alias, _label) rectangle "_label" "<$content_filter>\r" as _alias <<content filter>>
 
 
 /'  ########################################################
