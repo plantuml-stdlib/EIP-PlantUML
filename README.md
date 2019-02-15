@@ -91,6 +91,8 @@ The following pattern are currently supported:
 * Envelope Wrapper
     * `Wrapper(alias [,label])`    
     * `Unwrapper(alias [,label])`
+* Data Enricher (also Content Enricher)
+    * `DataEnricher(alias [,label], datasource)`
 
 ### Messaging Channels
 
