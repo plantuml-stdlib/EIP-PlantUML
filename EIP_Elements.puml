@@ -178,6 +178,14 @@ _alias -- _rulebase
 !define MessageTranslator(_alias) rectangle as _alias <<message translator>>
 !define MessageTransator(_alias, _label) rectangle "_label" as _alias <<message translator>>
 
+/'  EIP Pattern: Envelope Wrapper
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/EnvelopeWrapper.html
+'/
+!define Wrapper(_alias) rectangle "<$wrapper>\r" as _alias <<Wrapper>>
+!define Wrapper(_alias, _label) rectangle "_label" "<$wrapper>\r" as _alias <<Wrapper>>
+!define Unwrapper(_alias) rectangle "<$unwrapper>\r" as _alias <<Unwrapper>>
+!define Unwrapper(_alias, _label) rectangle "_label" "<$unwrapper>\r" as _alias <<Unwrapper>>
+
 /'  ########################################################
     ################## Message Endpoints  ################## 
 '/  ########################################################

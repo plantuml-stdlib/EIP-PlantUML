@@ -88,6 +88,9 @@ The following pattern are currently supported:
 
 * Message Translator
     * `MessageTranslator(alias [,label])`
+* Envelope Wrapper
+    * `Wrapper(alias [,label])`    
+    * `Unwrapper(alias [,label])`
 
 ### Messaging Channels
 
