@@ -95,6 +95,12 @@ The following pattern are currently supported:
     * `DataEnricher(alias [,label], datasource)`
 * Content Filter
     * `ContentFilter(alias [,label])`
+* Claim Check
+    * `Item(alias) <<$claim_check>>`
+    * `Item(alias, "<$claim_check>")`
+    * `Item(alias, "label <$claim_check>")`
+
+
 
 ### Messaging Channels
 
@@ -133,6 +139,20 @@ Send(dynamicrouter, queue2)
 results in the graphic below:
 
 ![Dynamic Message Router Example](images/dynamicrouter_example.png)
+
+### Claim Check 
+
+The Claim Check pattern can be applied to other patterns. There are several ways, this can done using the EIP-PlantUML as shown by the following example. It can be either used as alternative sterotype, as iconic label or as a label combined with a label text.
+
+```csharp
+ContentFilter(filter1) <<$claim_check>>
+
+ContentFilter(filter2, "<$claim_check>")
+
+ContentFilter(filter3, "secure filter <$claim_check>")
+```
+
+![Claim Check Example](images/claim_check.png)
 
 ## Background
 Enterprise Intergartion Patterns are a set of 65 patterns, mainly based on messaging concepts introduced Gregor Hohpe and Bobby Woolf. The Website [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com/) provides an extensive overview of these patterns. 

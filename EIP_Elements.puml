@@ -205,8 +205,7 @@ _alias -- _datasource
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/ContentFilter.html
 '/
 !define ContentFilter(_alias) rectangle "<$content_filter>\r" as _alias <<content filter>>
-!define ContentFilter(_alias, _label) rectangle "_label" "<$content_filter>\r" as _alias <<content filter>>
-
+!define ContentFilter(_alias, _label) rectangle "<$content_filter>\r _label" as _alias <<content filter>>
 
 /'  ########################################################
     ################## Message Endpoints  ################## 
