@@ -213,10 +213,20 @@ _alias -- _datasource
 !define Normalizer(_alias) rectangle "<$normalizer>\r" as _alias <<normalizer>> 
 !define Normalizer(_alias, _label) rectangle "<$normalizer>\r _label" as _alias <<normalizer>> 
 
+/'  EIP Pattern: Canonical Data Model 
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/CanonicalDataModel.html
+'/
 
 /'  ########################################################
-    ################## Message Endpoints  ################## 
+    ################## Messaging Endpoints  ################## 
 '/  ########################################################
+
+/'  EIP Pattern: Message Endpoint 
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageEndpoint.html
+'/  
+!define MessageEndpoint(_alias) rectangle "<$message_endpoint>\r" as _alias <<message_endpoint>> 
+!define MessageEndpoint(_alias, _label) rectangle "<$message_endpoint>\r _label" as _alias <<message_endpoint>> 
+
 
 /'  ########################################################
     ################## Messaging Channels  ################# 

@@ -102,6 +102,10 @@ The following pattern are currently supported:
 * Normalizer
     * `Normalizer(alias [,label])`
 
+### Messaging Endpoints
+
+* Message Endpoint
+    * `MessageEndpoint(alias [,label])`
 
 ### Messaging Channels
 
