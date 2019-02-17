@@ -207,6 +207,13 @@ _alias -- _datasource
 !define ContentFilter(_alias) rectangle "<$content_filter>\r" as _alias <<content filter>>
 !define ContentFilter(_alias, _label) rectangle "<$content_filter>\r _label" as _alias <<content filter>>
 
+/'  EIP Pattern: Normalizer 
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/Normalizer.html
+'/
+!define Normalizer(_alias) rectangle "<$normalizer>\r" as _alias <<normalizer>> 
+!define Normalizer(_alias, _label) rectangle "<$normalizer>\r _label" as _alias <<normalizer>> 
+
+
 /'  ########################################################
     ################## Message Endpoints  ################## 
 '/  ########################################################

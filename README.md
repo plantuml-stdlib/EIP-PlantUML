@@ -99,7 +99,8 @@ The following pattern are currently supported:
     * `Item(alias) <<$claim_check>>`
     * `Item(alias, "<$claim_check>")`
     * `Item(alias, "label <$claim_check>")`
-
+* Normalizer
+    * `Normalizer(alias [,label])`
 
 
 ### Messaging Channels
