@@ -101,11 +101,16 @@ The following pattern are currently supported:
     * `Item(alias, "label <$claim_check>")`
 * Normalizer
     * `Normalizer(alias [,label])`
+* Canonical Data Model
+    * TBD
+
 
 ### Messaging Endpoints
 
 * Message Endpoint
     * `MessageEndpoint(alias [,label])`
+* Messaging Gateway
+    * `MessagingGateway(alias [,label])`
 
 ### Messaging Channels
 

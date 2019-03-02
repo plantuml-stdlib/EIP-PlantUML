@@ -146,6 +146,7 @@ _alias -- _rulebase
 
 /'  EIP Pattern: Scatter-Gather
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/BroadcastAggregate.html
+    Info: No icon defined yet
 '/
 
 /'  EIP Pattern: Routing Slip
@@ -215,6 +216,7 @@ _alias -- _datasource
 
 /'  EIP Pattern: Canonical Data Model 
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/CanonicalDataModel.html
+    Info: No info defined yet
 '/
 
 /'  ########################################################
@@ -224,9 +226,16 @@ _alias -- _datasource
 /'  EIP Pattern: Message Endpoint 
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageEndpoint.html
 '/  
-!define MessageEndpoint(_alias) rectangle "<$message_endpoint>\r" as _alias <<message_endpoint>> 
-!define MessageEndpoint(_alias, _label) rectangle "<$message_endpoint>\r _label" as _alias <<message_endpoint>> 
+!define MessageEndpoint(_alias) rectangle "<$message_endpoint>\r" as _alias <<message endpoint>> 
+!define MessageEndpoint(_alias, _label) rectangle "<$message_endpoint>\r _label" as _alias <<message endpoint>> 
 
+/'  EIP Pattern: Messaging Gateway 
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingGateway.html
+'/
+!define MessagingGateway(_alias) rectangle "<$massaging_gateway>\r" as _alias <<massaging gateway>> 
+!define MessagingGateway(_alias, _label) rectangle "<$massaging_gateway>\r _label" as _alias <<massaging gateway>> 
+
+  
 
 /'  ########################################################
     ################## Messaging Channels  ################# 
