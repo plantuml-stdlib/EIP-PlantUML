@@ -2,8 +2,6 @@
 
 EIP-PlantUML provides [Enterprise Integrations Patterns](https://www.enterpriseintegrationpatterns.com/) elements to [PlantUML](http://plantuml.com/) to provide easy support of designing EIP architectures for both, up-front design as well as development-time automated documentation generation.  
 
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Faheil%2FEIP-PlantUML.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Faheil%2FEIP-PlantUML?ref=badge_shield)
-
 ## Important Information 
 
 Please bear in mind this repository is currently Work in Progress - therefore new features are added regularly and breaking changes might be introduced more often than not. 
@@ -188,7 +186,3 @@ If interested in contributing to this project, please make sure to read the [Con
 * [AWS-PlantUML](https://github.com/milo-minderbinder/AWS-PlantUML)
 * [Office Icons for PlantUML](https://github.com/Roemer/plantuml-office)
 * [Azure-PlantUML](https://github.com/RicardoNiepel/Azure-PlantUML)
-
-
-## License
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Faheil%2FEIP-PlantUML.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Faheil%2FEIP-PlantUML?ref=badge_large)
