@@ -2,3 +2,6 @@
 plantuml.jar 
 *.graffle
 test.puml
+out/*
+*.code-workspace
+.vscode/
