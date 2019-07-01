@@ -118,6 +118,8 @@ The following pattern are currently supported:
     * `TransactionalConsumer(alias [,label])`
 * Polling Consumer
     * `PollingConsumer(alias [,label])`
+* Event-Driven Consumer
+    * `EventDrivenConsumer(alias [,label])`
 
 ### Messaging Channels
 

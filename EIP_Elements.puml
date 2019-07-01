@@ -260,10 +260,12 @@ _alias -- _datasource
 !define PollingConsumer(_alias) rectangle "<$polling_consumer>\r" as _alias <<polling consumer>> 
 !define PollingConsumer(_alias, _label) rectangle "<$polling_consumer>\r _label" as _alias <<polling consumer>> 
 
-
 /'  EIP Pattern: Event-Driven Consumer 
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/
 '/
+!define EventDrivenConsumer(_alias) rectangle "<$eventdrive_consumer>\r" as _alias <<event-driven consumer>> 
+!define EventDrivenConsumer(_alias, _label) rectangle "<$eventdrive_consumer>\r _label" as _alias <<event-driven consumer>> 
+
 /'  EIP Pattern: Competing Consumers
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/
 '/
