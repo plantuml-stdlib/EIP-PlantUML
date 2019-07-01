@@ -249,6 +249,12 @@ _alias -- _datasource
 /'  EIP Pattern: Transactional client
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/
 '/
+!define TransactionalProducer(_alias) rectangle "<$transactional_producer>\r" as _alias <<transactional producer>> 
+!define TransactionalProducer(_alias, _label) rectangle "<$transactional_producer>\r _label" as _alias <<transactional producer>> 
+!define TransactionalConsumer(_alias) rectangle "<$transactional_consumer>\r" as _alias <<transactional consumer>> 
+!define TransactionalConsumer(_alias, _label) rectangle "<$transactional_consumer>\r _label" as _alias <<transactional consumer>> 
+
+
 /'  EIP Pattern: Polling Consumer
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/
 '/

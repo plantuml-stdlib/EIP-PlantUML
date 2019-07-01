@@ -113,6 +113,9 @@ The following pattern are currently supported:
     * `MessagingGateway(alias [,label])`
 * Messaging Mapper
     * `MessagingMapper(alias [,label])`
+* Transactional Client
+    * `TransactionalProducer(alias [,label])`
+    * `TransactionalConsumer(alias [,label])`
 
 ### Messaging Channels
 
