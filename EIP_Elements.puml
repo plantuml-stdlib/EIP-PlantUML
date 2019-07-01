@@ -208,6 +208,11 @@ _alias -- _datasource
 !define ContentFilter(_alias) rectangle "<$content_filter>\r" as _alias <<content filter>>
 !define ContentFilter(_alias, _label) rectangle "<$content_filter>\r _label" as _alias <<content filter>>
 
+/'  EIP Pattern: Claim Check
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/ClaimCheck.html
+    See below. Can be applied to other patterns,
+'/
+
 /'  EIP Pattern: Normalizer 
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/Normalizer.html
 '/
@@ -235,7 +240,39 @@ _alias -- _datasource
 !define MessagingGateway(_alias) rectangle "<$massaging_gateway>\r" as _alias <<massaging gateway>> 
 !define MessagingGateway(_alias, _label) rectangle "<$massaging_gateway>\r _label" as _alias <<massaging gateway>> 
 
-  
+/'  EIP Pattern: Messaging Mapper
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingMapper.html
+'/
+!define MessagingMapper(_alias) rectangle "<$messaging_mapper>\r" as _alias <<massaging mapper>> 
+!define MessagingMapper(_alias, _label) rectangle "<$messaging_mapper>\r _label" as _alias <<massaging mapper>> 
+
+/'  EIP Pattern: Transactional client
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/
+'/
+/'  EIP Pattern: Polling Consumer
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/
+'/
+/'  EIP Pattern: Event-Driven Consumer 
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/
+'/
+/'  EIP Pattern: Competing Consumers
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/
+'/
+/'  EIP Pattern: Message Dispatcher
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/
+'/
+/'  EIP Pattern: Selective Consumer
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/
+'/
+/'  EIP Pattern: Durable Consumer
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/
+'/
+/'  EIP Pattern: Idempotent REceiver
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/
+'/
+/'  EIP Pattern: Service Activator
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/
+'/
 
 /'  ########################################################
     ################## Messaging Channels  ################# 

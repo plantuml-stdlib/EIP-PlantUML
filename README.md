@@ -52,6 +52,8 @@ The following pattern are currently supported:
     * `MessageSequence(alias [,label])`
 * Message Expiration
     * `MessageExpiration(alias [,label])`
+* Format Indicator
+    * TBD
 
 ### Message Routing
 * Pipes and Filters
@@ -109,6 +111,8 @@ The following pattern are currently supported:
     * `MessageEndpoint(alias [,label])`
 * Messaging Gateway
     * `MessagingGateway(alias [,label])`
+* Messaging Mapper
+    * `MessagingMapper(alias [,label])`
 
 ### Messaging Channels
 
@@ -161,6 +165,25 @@ ContentFilter(filter3, "secure filter <$claim_check>")
 ```
 
 ![Claim Check Example](images/claim_check.png)
+
+### Messaging Mapper 
+
+The Messaging Mapper transofrms domain objects into messages required by the messaging mapper and vice versa. 
+
+Therefore, EAI-PLantUML introduces the following metapher for the Messaging Mapper.
+
+![Messaging Mapper Metapher](images/messaging_mapper.png)
+
+The original example introduced by G. Hoppe then can be written like
+```csharp
+rectangle "Business Object" as obj
+component [Messaging\nInfrastructure] as infra
+MessagingMapper(mapper, "Messaging Mapper") 
+obj -- mapper
+Send(mapper, infra)
+```
+
+![Messaging Mapper Example](images/messaging_mapper_example.png)
 
 ## Background
 Enterprise Intergartion Patterns are a set of 65 patterns, mainly based on messaging concepts introduced Gregor Hohpe and Bobby Woolf. The Website [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com/) provides an extensive overview of these patterns. 
