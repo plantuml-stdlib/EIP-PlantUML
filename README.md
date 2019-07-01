@@ -116,6 +116,8 @@ The following pattern are currently supported:
 * Transactional Client
     * `TransactionalProducer(alias [,label])`
     * `TransactionalConsumer(alias [,label])`
+* Polling Consumer
+    * `PollingConsumer(alias [,label])`
 
 ### Messaging Channels
 
