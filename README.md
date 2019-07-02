@@ -120,6 +120,10 @@ The following pattern are currently supported:
     * `PollingConsumer(alias [,label])`
 * Event-Driven Consumer
     * `EventDrivenConsumer(alias [,label])`
+* Competing Consumers
+    * TBD
+* Message Dispatcher
+    * `MessageDispatcher(alias [,label])`
 
 ### Messaging Channels
 
