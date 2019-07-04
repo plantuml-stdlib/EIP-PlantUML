@@ -21,7 +21,7 @@ At the top of your PlantUML model you need to include the `EIP-PlantUML.puml` fi
 If you want to include the most recent version of the `EIP-PlantUML.puml` file, you can alternatively us 
 
 ```c#
-!includeurl https://raw.githubusercontent.com/aheil/EIP-PlantUML/master/EIP_Elements.puml
+!includeurl https://raw.githubusercontent.com/aheil/EIP-PlantUML/master/dist/EIP-PlantUML.puml
 ```
 
 to link to the latest version available in the master repository.
