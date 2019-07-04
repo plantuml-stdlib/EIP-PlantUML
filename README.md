@@ -138,6 +138,10 @@ The following pattern are currently supported:
 * Durable Subscription
     * `DurableSubscriber(alias [,label])`
     * `NonDurableSubscriber(alias [,label])`
+* Idempotent Receiver 
+    * TBD
+* Service Activator
+    * `ServiceActivator(alias [,label])`
 
 ### Messaging Channels
 

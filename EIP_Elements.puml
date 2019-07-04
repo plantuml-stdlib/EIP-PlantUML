@@ -291,12 +291,16 @@ _alias -- _datasource
 !define NonDurableSubscriber(_alias) rectangle "<$nondurable_subscriber>\r" as _alias <<non-durable subscriber>> 
 !define NonDurableSubscriber(_alias, _label) rectangle "<$nondurable_subscriber>\r _label" as _alias <<non-durable subscriber>> 
 
-/'  EIP Pattern: Idempotent REceiver
-    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/
+/'  EIP Pattern: Idempotent Receiver
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/IdempotentReceiver.html
+    TBD, no metapher availalbe at www.enterpriseintegrationpatterns.com
 '/
+
 /'  EIP Pattern: Service Activator
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/
 '/
+!define ServiceActivator(_alias) rectangle "<$service_activator>\r" as _alias <<service activator>> 
+!define ServiceActivator(_alias, _label) rectangle "<$service_activator>\r _label" as _alias <<service activator>> 
 
 /'  ########################################################
     ################## Messaging Channels  ################# 
