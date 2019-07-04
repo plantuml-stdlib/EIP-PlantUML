@@ -9,7 +9,7 @@ Please bear in mind this repository is currently Work in Progress - therefore ne
 
 ## Getting Started
 
-You will need to download the `EIP-PLantUML.puml` file from the dist folder.  
+You will need to download the `EIP-PlantUML.puml` file from the dist folder.  
 This files includes everything you need to use the EIP patterns in your PlantUML diagramms.
 
 At the top of your PlantUML model you need to include the `EIP-PlantUML.puml` file.
@@ -17,6 +17,15 @@ At the top of your PlantUML model you need to include the `EIP-PlantUML.puml` fi
 ```c#
 !include ../EIP-PlantUML/EIP-PlantUML.puml
 ```
+
+If you want to include the most recent version of the `EIP-PlantUML.puml' file, you can alternatively us 
+
+```c#
+!includeurl https://raw.githubusercontent.com/aheil/EIP-PlantUML/master/EIP_Elements.puml
+```
+
+to link to the latest version available in the master repository.
+
 After including the `EIP-PlantUML.puml` file you can start using the EIP patterns as shown below. 
 
 ```c#
