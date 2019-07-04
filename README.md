@@ -126,6 +126,9 @@ The following pattern are currently supported:
     * `MessageDispatcher(alias [,label])`
 * Selective Consumer (Message Selector)
     * `SelectiveConsumer(alias [,label])`
+* Durable Subscription
+    * `DurableSubscriber(alias [,label])`
+    * `NonDurableSubscriber(alias [,label])`
 
 ### Messaging Channels
 

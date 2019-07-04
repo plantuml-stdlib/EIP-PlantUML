@@ -281,11 +281,16 @@ _alias -- _datasource
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageSelector.html
 '/
 !define SelectiveConsumer(_alias) rectangle "<$selective_consumer>\r" as _alias <<selective consumer>> 
-!define SelectiveConsumer(_alias, _label) rectangle "<$selective_consumer>\r _label" as _alias <<eslective consumer>> 
+!define SelectiveConsumer(_alias, _label) rectangle "<$selective_consumer>\r _label" as _alias <<selective consumer>> 
 
 /'  EIP Pattern: Durable Consumer
-    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/DurableSubscription.html
 '/
+!define DurableSubscriber(_alias) rectangle "<$durable_subscriber>\r" as _alias <<durable subscriber>> 
+!define DurableSubscriber(_alias, _label) rectangle "<$durable_subscriber>\r _label" as _alias <<durable subscriber>> 
+!define NonDurableSubscriber(_alias) rectangle "<$nondurable_subscriber>\r" as _alias <<non-durable subscriber>> 
+!define NonDurableSubscriber(_alias, _label) rectangle "<$nondurable_subscriber>\r _label" as _alias <<non-durable subscriber>> 
+
 /'  EIP Pattern: Idempotent REceiver
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/
 '/
