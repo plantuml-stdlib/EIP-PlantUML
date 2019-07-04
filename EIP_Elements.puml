@@ -267,19 +267,22 @@ _alias -- _datasource
 !define EventDrivenConsumer(_alias, _label) rectangle "<$eventdriven_consumer>\r _label" as _alias <<event-driven consumer>> 
 
 /'  EIP Pattern: Competing Consumers
-    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/CompetingConsumers.html
     No special element required. Can be done in code by adding multiple consumers.
 '/
 
 /'  EIP Pattern: Message Dispatcher
-    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageDispatcher.html
 '/
 !define MessageDispatcher(_alias) rectangle "<$message_dispatcher>\r" as _alias <<message dispatcher>> 
 !define MessageDispatcher(_alias, _label) rectangle "<$message_dispatcher>\r _label" as _alias <<message dispatcher>> 
 
 /'  EIP Pattern: Selective Consumer
-    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/
+    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageSelector.html
 '/
+!define SelectiveConsumer(_alias) rectangle "<$selective_consumer>\r" as _alias <<selective consumer>> 
+!define SelectiveConsumer(_alias, _label) rectangle "<$selective_consumer>\r _label" as _alias <<eslective consumer>> 
+
 /'  EIP Pattern: Durable Consumer
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/
 '/

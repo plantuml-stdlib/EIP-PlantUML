@@ -124,6 +124,8 @@ The following pattern are currently supported:
     * TBD
 * Message Dispatcher
     * `MessageDispatcher(alias [,label])`
+* Selective Consumer (Message Selector)
+    * `SelectiveConsumer(alias [,label])`
 
 ### Messaging Channels
 
