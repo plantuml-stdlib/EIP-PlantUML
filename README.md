@@ -161,9 +161,11 @@ The following pattern are currently supported:
 * Channel Adapter
     * `ChannelAdapteLeft(alias [,label])`
     * `ChannelAdapteRight(alias [,label])`
-* Messageing Bridge 
+* Messaging Bridge 
     * MsgBridge(alias [,label])`
-    
+* Message Bus 
+    * MsgBus(alias [,label])`
+
 ### System Managmenet
 
  * Channel Purger

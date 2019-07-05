@@ -364,6 +364,9 @@ _alias -- _datasource
 /'  EIP Pattern: Message Bus 
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageBus.html
 '/
+!define MsgBus(_alias) rectangle "<$message_bus>" as _alias <<message bus>> 
+!define MsgBus(_alias, _label) rectangle "<$message_bus>\r _label" as _alias <<message bus>> 
+
 
 /'  ########################################################
     ################## Systems Management  ################# 
