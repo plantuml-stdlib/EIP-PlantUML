@@ -155,6 +155,8 @@ The following pattern are currently supported:
     * `DatatypeChannel(alias [,label])`
 * Invalid Message Channel
     * `InvalidMsgChannel(alias [,label])`
+* Dead Letter Channel
+    * `DeadLetterChannel(alias [,label])`
 
 ### System Managmenet
 

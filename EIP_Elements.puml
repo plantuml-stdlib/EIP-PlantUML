@@ -336,10 +336,11 @@ _alias -- _datasource
 !define InvalidMsgChannel(_alias) rectangle "<$invalid_message_channel>\r" as _alias <<invalid message channel>> 
 !define InvalidMsgChannel(_alias, _label) rectangle "<$invalid_message_channel>\r _label" as _alias <<invallid message channel>> 
 
-
 /'  EIP Pattern: Dead Letter Channel 
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/DeadLetterChannel.html
 '/
+!define DeadLetterChannel(_alias) rectangle "<$dead_letter_queu>\r" as _alias <<dead letter channel>> 
+!define DeadLetterChannel(_alias, _label) rectangle "<$dead_letter_queue>\r _label" as _alias <<dead letter channel>> 
 
 /'  EIP Pattern: Guaranteed Delivery
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/GuaranteedMessaging.html
