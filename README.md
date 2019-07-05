@@ -153,6 +153,8 @@ The following pattern are currently supported:
     * `PubSubChannel(alias [,label])`
  * Datatype Channel
     * `DatatypeChannel(alias [,label])`
+* Invalid Message Channel
+    * `InvalidMsgChannel(alias [,label])`
 
 ### System Managmenet
 
