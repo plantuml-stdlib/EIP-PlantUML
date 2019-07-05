@@ -157,6 +157,11 @@ The following pattern are currently supported:
     * `InvalidMsgChannel(alias [,label])`
 * Dead Letter Channel
     * `DeadLetterChannel(alias [,label])`
+* Quaranteed Deliver
+    * TBD
+* Channel Adapter
+    * `ChannelAdapteLeft(alias [,label])`
+    * `ChannelAdapteRight(alias [,label])`
 
 ### System Managmenet
 
