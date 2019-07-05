@@ -327,6 +327,9 @@ _alias -- _datasource
 /'  EIP Pattern: Datatype Channel
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/DatatypeChannel.html
 '/
+!define DatatypeChannel(_alias) rectangle "<$datatype_channel>\r" as _alias <<datatype channel>> 
+!define DatatypeChannel(_alias, _label) rectangle "<$datatype_channel>\r _label" as _alias <<datatype channel>> 
+
 
 /'  EIP Pattern: Invalid Message Channel 
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/InvalidMessageChannel.html

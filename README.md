@@ -151,6 +151,8 @@ The following pattern are currently supported:
     * `P2PChannel(alias [,label] )`
 * Publish-Subscribe Channel
     * `PubSubChannel(alias [,label])`
+ * Datatype Channel
+    * `DatatypeChannel(alias [,label])`
 
 ### System Managmenet
 
