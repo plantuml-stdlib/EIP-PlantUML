@@ -162,9 +162,9 @@ The following pattern are currently supported:
     * `ChannelAdapteLeft(alias [,label])`
     * `ChannelAdapteRight(alias [,label])`
 * Messaging Bridge 
-    * MsgBridge(alias [,label])`
+    * `MsgBridge(alias [,label])`
 * Message Bus 
-    * MsgBus(alias [,label])`
+    * `MsgBus(alias [,label])`
 
 ### System Managmenet
 
