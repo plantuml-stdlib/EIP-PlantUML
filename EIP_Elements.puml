@@ -355,7 +355,6 @@ _alias -- _datasource
 !define ChannelAdapterRight(_alias) rectangle "<$channel_adapter_right>\r" as _alias <<channel adapter right>> 
 !define ChannelAdapterRight(_alias, _label) rectangle "<$channel_adapter_right>\r _label" as _alias <<channel adapter right>> 
 
-
 /'  EIP Pattern: Messaging Bridge
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingBridge.html
 '/

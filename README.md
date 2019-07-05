@@ -113,7 +113,6 @@ The following pattern are currently supported:
 * Canonical Data Model
     * TBD
 
-
 ### Messaging Endpoints
 
 * Message Endpoint
@@ -162,7 +161,9 @@ The following pattern are currently supported:
 * Channel Adapter
     * `ChannelAdapteLeft(alias [,label])`
     * `ChannelAdapteRight(alias [,label])`
-
+* Messageing Bridge 
+    * MsgBridge(alias [,label])`
+    
 ### System Managmenet
 
  * Channel Purger
