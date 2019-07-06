@@ -4,7 +4,7 @@ EIP-PlantUML provides [Enterprise Integrations Patterns](https://www.enterprisei
 
 ## Important Information 
 
-Please bear in mind this repository is currently Work in Progress - therefore new features are added regularly and breaking changes might be introduced more often than not. 
+Please bear in mind this repository is currently *Work in Progress* - therefore new features might be added regularly and breaking changes might be introduced more often than not. 
 
 
 ## Getting Started
@@ -168,7 +168,9 @@ The following pattern are currently supported:
 
 ### System Managmenet
 
- * Channel Purger
+* Control Bus
+    * `ControlBus(alias)` 
+* Channel Purger
     * `ChannelPurger(alias [,label])` 
 
 ## Examples 
