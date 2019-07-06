@@ -228,6 +228,35 @@ Send(mapper, infra)
 
 ![Messaging Mapper Example](images/messaging_mapper_example.png)
 
+### Control Bus 
+
+A Control Bus is used to manage an enterprise integration system. It uses the same messaging mechanism used by the application data, but uses separate channels to transmit data that is relevant to the management of components involved in the message flow.
+
+The following example shows how to create the ![original Control Bus example](https://www.enterpriseintegrationpatterns.com/patterns/messaging/ControlBus.html)  easily with PlantUML while connecting each system using the `<-->` command.
+
+```csharp
+rectangle System1
+rectangle System2
+rectangle System3 
+
+Message(source) 
+Message(target) 
+
+ControlBus("cb") 
+
+Send(source, System1) 
+Send(System1, System2) 
+Send(System2, System3) 
+Send(System3, target) 
+
+System1 <--> cb 
+System2 <--> cb 
+System3 <--> cb 
+```
+
+![Contol Bus Example](images/control_bus_example.png)
+
+
 ## Background
 Enterprise Intergartion Patterns are a set of 65 patterns, mainly based on messaging concepts introduced Gregor Hohpe and Bobby Woolf. The Website [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com/) provides an extensive overview of these patterns. 
 

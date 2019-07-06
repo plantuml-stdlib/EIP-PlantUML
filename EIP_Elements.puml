@@ -372,9 +372,17 @@ _alias -- _datasource
     ################## Systems Management  ################# 
 '/  ########################################################
 
-/'  EIP Pattern: Control BUs
-    Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/ControlBus.html
+/'  EIP Pattern: Control Bus
+    Link: h‚ttps://www.enterpriseintegrationpatterns.com/patterns/messaging/ControlBus.html
 '/
+Hide <<control bus>> stereotype
+!function ControlBus($alias)
+  rectangle "<$control_bus>" as $alias <<control bus>> #transparent
+  skinparam rectangle {
+    BorderColor<<control bus>> transparent
+    Shadowing<<control bus>> false
+  }  
+!endfunction
 
 /'  EIP Pattern: Detour
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/Detour.html
