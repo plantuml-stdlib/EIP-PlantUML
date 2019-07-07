@@ -411,10 +411,15 @@ Hide <<control bus>> stereotype
 /'  EIP Patern: Smart Proxy 
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/SmartProxy.html
 '/
+!define SmartProxy(_alias) rectangle "<$smart_proxy>" as _alias <<smart proxy>> 
+!define SmartProxy(_alias, _label) rectangle "<$smart_proxy>\r _label" as _alias <<smart proxy>> 
 
 /'  EIP Pattern: Test Message 
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/TestMessage.html 
 '/
+!define TestMessage(_alias) rectangle "<$test_message>" as _alias <<test message>> 
+!define TestMessage(_alias, _label) rectangle "<$test_message>\r _label" as _alias <<test message>> 
+
 
 /'  EIP Pattern: Channel Purger
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/ChannelPurger.html
