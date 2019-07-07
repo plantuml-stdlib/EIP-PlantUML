@@ -172,6 +172,8 @@ The following pattern are currently supported:
     * `ControlBus(alias)` 
 * Detour
     * `Detour(alias [,label])`
+* Wire Tap
+    * `Wire Tap(alias [,label])`
 * Channel Purger
     * `ChannelPurger(alias [,label])` 
 

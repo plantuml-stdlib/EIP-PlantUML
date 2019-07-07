@@ -394,6 +394,9 @@ Hide <<control bus>> stereotype
 /'  EIP Pattern: Wire Tap
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/WireTap.html
 '/
+!define WireTap(_alias) rectangle "<$wire_tap>" as _alias <<wire tap>> 
+!define WireTap(_alias, _label) rectangle "<$wire_tap>\r _label" as _alias <<wire tap>> 
+
 
 /'  EIP Pattern: Message History
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageHistory.html
