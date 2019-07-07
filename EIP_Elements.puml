@@ -397,14 +397,16 @@ Hide <<control bus>> stereotype
 !define WireTap(_alias) rectangle "<$wire_tap>" as _alias <<wire tap>> 
 !define WireTap(_alias, _label) rectangle "<$wire_tap>\r _label" as _alias <<wire tap>> 
 
-
 /'  EIP Pattern: Message History
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageHistory.html
+    TB: This is rather hard to do
 '/
 
 /'  EIP Pattern: Message Store
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageStore.html
 '/
+!define MessageStore(_alias) rectangle "<$message_store>" as _alias <<message store>> 
+!define MessageStore(_alias, _label) rectangle "<$message_store>\r _label" as _alias <<message store>> 
 
 /'  EIP Patern: Smart Proxy 
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/SmartProxy.html

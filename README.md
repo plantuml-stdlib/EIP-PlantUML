@@ -174,6 +174,8 @@ The following pattern are currently supported:
     * `Detour(alias [,label])`
 * Wire Tap
     * `Wire Tap(alias [,label])`
+* Message History
+    * TBD
 * Channel Purger
     * `ChannelPurger(alias [,label])` 
 
