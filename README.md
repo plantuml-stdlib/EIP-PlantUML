@@ -170,6 +170,8 @@ The following pattern are currently supported:
 
 * Control Bus
     * `ControlBus(alias)` 
+* Detour
+    * `Detour(alias [,label])`
 * Channel Purger
     * `ChannelPurger(alias [,label])` 
 

@@ -387,6 +387,9 @@ Hide <<control bus>> stereotype
 /'  EIP Pattern: Detour
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/Detour.html
 '/
+!define Detour(_alias) rectangle "<$detour>" as _alias <<detour>> 
+!define Detour(_alias, _label) rectangle "<$detour>\r _label" as _alias <<detour>> 
+
 
 /'  EIP Pattern: Wire Tap
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/WireTap.html
