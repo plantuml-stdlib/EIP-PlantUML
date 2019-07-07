@@ -176,6 +176,10 @@ The following pattern are currently supported:
     * `Wire Tap(alias [,label])`
 * Message History
     * TBD
+* Smart Proxy
+    * `SmartProxy(alias [,label])`
+* Test Message
+    * `TestMessage(alias [,label])`
 * Channel Purger
     * `ChannelPurger(alias [,label])` 
 
