@@ -4,6 +4,64 @@
 
 skinparam defaultTextAlignment center
 
+!function HIDE_STEREOTYPES()
+  Hide <<message>> stereotype
+  Hide <<command message>>  stereotype
+  Hide <<document message>>  stereotype
+  Hide <<event message>>  stereotype
+  Hide <<request-reply>>  stereotype
+  Hide <<return address>>  stereotype
+  Hide <<correlation identifier>>  stereotype
+  Hide <<message sequence>>  stereotype
+  Hide <<message expiration>>  stereotype
+  Hide <<filter>> stereotype
+  Hide <<dynamic message router>>  stereotype
+  Hide <<recipient list>>  stereotype
+  Hide <<splitter>>  stereotype
+  Hide <<aggregator>> stereotype
+  Hide <<aggregator>> stereotype
+  Hide <<resequencer>> stereotype
+  Hide <<composed msg processor>> stereotype
+  Hide <<routing slip>> stereotype
+  Hide <<process manager>> stereotype
+  Hide <<message broker>> stereotype
+  Hide <<message broker>> stereotype
+  Hide <<message translator>> stereotype
+  Hide <<wrapper>> stereotype
+  Hide <<data enricher>>  stereotype
+  Hide <<content filter>> stereotype
+  Hide <<normalizer>> stereotype
+  Hide <<message endpoint>> stereotype
+  Hide <<massaging gateway>> stereotype
+  Hide <<massaging mapper>> stereotype
+  Hide <<transactional producer>> stereotype
+  Hide <<transactional consumer>> stereotype
+  Hide <<polling consumer>> stereotype
+  Hide <<event-driven consumer>> stereotype
+  Hide <<message dispatcher>> stereotype
+  Hide <<selective consumer>> stereotype
+  Hide <<durable subscriber>> stereotype
+  Hide <<non-durable subscriber>> stereotype
+  Hide <<service activator>> stereotype
+  Hide <<message channel>>  stereotype
+  Hide <<point-to-point channel>>  stereotype
+  Hide <<publish-subscribe channel>>  stereotype
+  Hide <<datatype channel>> stereotype
+  Hide <<invalid message channel>> stereotype
+  Hide <<dead letter channel>> stereotype
+  Hide <<channel adapter left>>  stereotype
+  Hide <<channel adapter right>>  stereotype
+  Hide <<messaging bridge>> stereotype
+  Hide <<message bus>> stereotype
+  Hide <<control bus>> stereotype
+  Hide <<detour>> stereotype
+  Hide <<wire tap>> stereotype
+  Hide <<message store>> stereotype
+  Hide <<smart proxy>> stereotype
+  Hide <<test message>> stereotype
+  Hide <<channel purger>>  stereotype
+!endfunction
+
 /'  ########################################################
     ################## Message Construct  ################## 
 '/  ########################################################
@@ -13,6 +71,7 @@ skinparam defaultTextAlignment center
 '/
 !define Message(_alias) rectangle "<$message>\r" as _alias <<message>> 
 !define Message(_alias, _label) rectangle "<$message>\r _label" as _alias <<message>> 
+
 
 /'  EIP Pattern: Command Message
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/CommandMessage.html 

@@ -268,6 +268,23 @@ System3 <--> cb
 
 ![Contol Bus Example](images/control_bus_example.png)
 
+## Additional Features 
+
+## Stereotypes
+While stereotypes are great for new users and small examples, documentation frequently used often does not need this additional metadata. Therefore, stereotypes can be swithed off for the overall diagramm using `HIDE_STEREOTYPES()`.
+
+The following example shows an example with hidden sterotypes. 
+
+```csharp 
+HIDE_STEREOTYPES()
+
+Message(src, "source")
+MsgChannel(queue, "queue")
+Message(dest, "destination")
+Send(src, queue)
+Send(queue, dest)
+````
+![Diagram without stereotypes ](images/hide_stereotypes.png)
 
 ## Background
 Enterprise Intergartion Patterns are a set of 65 patterns, mainly based on messaging concepts introduced Gregor Hohpe and Bobby Woolf. The Website [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com/) provides an extensive overview of these patterns. 
