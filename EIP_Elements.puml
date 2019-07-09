@@ -394,7 +394,7 @@ _alias -- _datasource
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/InvalidMessageChannel.html
 '/
 !define InvalidMsgChannel(_alias) rectangle "<$invalid_message_channel>\r" as _alias <<invalid message channel>> 
-!define InvalidMsgChannel(_alias, _label) rectangle "<$invalid_message_channel>\r _label" as _alias <<invallid message channel>> 
+!define InvalidMsgChannel(_alias, _label) rectangle "<$invalid_message_channel>\r _label" as _alias <<invalid message channel>> 
 
 /'  EIP Pattern: Dead Letter Channel 
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/DeadLetterChannel.html
