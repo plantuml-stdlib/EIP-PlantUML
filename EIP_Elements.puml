@@ -16,6 +16,8 @@ skinparam defaultTextAlignment center
   Hide <<message expiration>>  stereotype
   Hide <<filter>> stereotype
   Hide <<message router>>  stereotype
+  Hide <<content-based router>> stereotype
+  Hide <<message filter>> stereotype
   Hide <<dynamic message router>> stereotype
   Hide <<recipient list>>  stereotype
   Hide <<splitter>>  stereotype
@@ -145,6 +147,7 @@ skinparam defaultTextAlignment center
 
 /'  EIP Pattern: Contend-based Router
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/ContentBasedRouter.html
+    TODO: This should be done in a function, with more flexibility
 '/
 !define ContentBasedRouter(_alias) rectangle "<$content_based_router>" as _alias <<content-based router>> 
 !define ContentBasedRouter(_alias, _label) rectangle "<$content_based_router>\r _label" as _alias <<content-based router>> 
@@ -153,7 +156,7 @@ skinparam defaultTextAlignment center
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/Filter.html
 '/
 !define MessageFilter(_alias) rectangle "<$message_filter>" as _alias <<message filter>> 
-!define MessageFilter(_alias, _label) rectangle "<$message_filter>\r _label" as _alias <<message filter>> 
+!define MessageFilter(_alias, _label) rectangle "<$message_filter>\r_label" as _alias <<message filter>> 
 
 /'  EIP Pattern: Dynamic Router
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/DynamicRouter.html
