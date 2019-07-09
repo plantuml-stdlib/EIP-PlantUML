@@ -173,7 +173,7 @@ The following pattern are currently supported:
 * Detour
     * `Detour(alias [,label])`
 * Wire Tap
-    * `Wire Tap(alias [,label])`
+    * `WireTap(alias [,label])`
 * Message History
     * TBD
 * Smart Proxy
