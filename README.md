@@ -176,6 +176,8 @@ The following pattern are currently supported:
     * `WireTap(alias [,label])`
 * Message History
     * TBD
+* Message Store
+    * `MessageStore(alias [,label])`
 * Smart Proxy
     * `SmartProxy(alias [,label])`
 * Test Message
