@@ -301,8 +301,8 @@ _alias -- _datasource
 /'  EIP Pattern: Messaging Gateway 
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingGateway.html
 '/
-!define MessagingGateway(_alias) rectangle "<$massaging_gateway>" as _alias <<massaging gateway>> 
-!define MessagingGateway(_alias, _label) rectangle "<$massaging_gateway>\r _label" as _alias <<massaging gateway>> 
+!define MessagingGateway(_alias) rectangle "<$messaging_gateway>" as _alias <<massaging gateway>> 
+!define MessagingGateway(_alias, _label) rectangle "<$messaging_gateway>\r _label" as _alias <<massaging gateway>> 
 
 /'  EIP Pattern: Messaging Mapper
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingMapper.html
