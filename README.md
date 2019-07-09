@@ -159,8 +159,8 @@ The following pattern are currently supported:
 * Quaranteed Deliver
     * TBD
 * Channel Adapter
-    * `ChannelAdapteLeft(alias [,label])`
-    * `ChannelAdapteRight(alias [,label])`
+    * `ChannelAdapterLeft(alias [,label])`
+    * `ChannelAdapterRight(alias [,label])`
 * Messaging Bridge 
     * `MsgBridge(alias [,label])`
 * Message Bus 
