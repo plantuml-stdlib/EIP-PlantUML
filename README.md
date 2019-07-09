@@ -288,6 +288,14 @@ Send(queue, dest)
 ````
 ![Diagram without stereotypes ](images/hide_stereotypes.png)
 
+## Horizontal Layout 
+In some cases it is required to use a horizontal layout.
+You can force this layout by calling 
+
+```csharp
+LAYOUT_LEFT_RIGHT()
+```
+
 ## Background
 Enterprise Intergartion Patterns are a set of 65 patterns, mainly based on messaging concepts introduced Gregor Hohpe and Bobby Woolf. The Website [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com/) provides an extensive overview of these patterns. 
 

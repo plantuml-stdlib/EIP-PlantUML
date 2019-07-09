@@ -66,6 +66,8 @@ skinparam defaultTextAlignment center
   Hide <<channel purger>>  stereotype
 !endfunction
 
+!define LAYOUT_LEFT_RIGHT() left to right direction
+
 /'  ########################################################
     ################## Message Construct  ################## 
 '/  ########################################################
