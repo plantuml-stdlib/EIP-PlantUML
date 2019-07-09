@@ -15,7 +15,8 @@ skinparam defaultTextAlignment center
   Hide <<message sequence>>  stereotype
   Hide <<message expiration>>  stereotype
   Hide <<filter>> stereotype
-  Hide <<dynamic message router>>  stereotype
+  Hide <<message router>>  stereotype
+  Hide <<dynamic message router>> stereotype
   Hide <<recipient list>>  stereotype
   Hide <<splitter>>  stereotype
   Hide <<aggregator>> stereotype
