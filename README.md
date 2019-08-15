@@ -288,6 +288,22 @@ You can force this layout by calling
 LAYOUT_LEFT_RIGHT()
 ```
 
+## Tests
+
+Tests and scripts are located in the `test`folder of this project.
+
+### Test Script: testlabel.sh 
+
+In issue #29 there was an issue reported where `_labels` have been not rendered. This ussue was reported on Windows 10 using PLantUML v1.2019.8. To avoid this, in the definition string, the label declaration has to be precendet by a space. This test script verifies this requirement. The script return `0`if the test is passend, `1`otherwise. 
+
+```bash
+ FAILED: Issues detected
+420:!define ChannelAdapterLeft(_alias, _label) rectangle "<$channel_adapter_left>\r_label" as _alias <<channel adapter left>> 
+422:!define ChannelAdapterRight(_alias, _label) rectangle "<$channel_adapter_right>\r_label" as _alias <<channel adapter right>> 
+AndreassMacBook:test andreas$ ./testlabel.sh 
+ PASSED: No issues detected.
+ ```
+
 ## Background
 Enterprise Intergartion Patterns are a set of 65 patterns, mainly based on messaging concepts introduced Gregor Hohpe and Bobby Woolf. The Website [Enterprise Integration Patterns](https://www.enterpriseintegrationpatterns.com/) provides an extensive overview of these patterns. 
 

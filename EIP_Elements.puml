@@ -249,9 +249,9 @@ _alias -- _rulebase
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/EnvelopeWrapper.html
 '/
 !define Wrapper(_alias) rectangle "<$wrapper>" as _alias <<wrapper>>
-!define Wrapper(_alias, _label) rectangle "<$wrapper>\r_label " as _alias <<wrapper>>
+!define Wrapper(_alias, _label) rectangle "<$wrapper>\r _label" as _alias <<wrapper>>
 !define Unwrapper(_alias) rectangle "<$unwrapper>" as _alias <<unwrapper>>
-!define Unwrapper(_alias, _label) rectangle "<$unwrapper>\r_label" as _alias <<unwrapper>>
+!define Unwrapper(_alias, _label) rectangle "<$unwrapper>\r _label" as _alias <<unwrapper>>
 
 /'  EIP Pattern: Data Enricher
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/DataEnricher.html
