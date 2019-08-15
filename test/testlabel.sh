@@ -19,7 +19,3 @@ else
     grep 'r_label' -n ../EIP_Elements.puml
     exit 1
 fi
-
-
-#$ Blue=$'\e[1;34m'
-#$ echo "$Blue I like chocolate cake "
