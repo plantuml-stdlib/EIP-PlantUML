@@ -41,28 +41,20 @@ Send(msg, channel2)
 ## Supported Pattern 
 The following pattern are currently supported:
 
-### Message Construction
+### 
 
-* Message 
-   * `Message(alias [,label])`
-* Command Message
-    * `CommandMessage(alias [,label])`
-* Document Message
-    * `DocumentMessage(alias [,label])`
-* Event Message
-    * `EventMessage(alias [,label])`
-* Request-Reply
-    * `RequestReply(alias [,label])`
-* Return Address
-    * `ReturnAddress(alias [,label])`
-* Correlation Identifer
-    * `CorrelationIdentifier(alias [,label])`
-* Message Sequence
-    * `MessageSequence(alias [,label])`
-* Message Expiration
-    * `MessageExpiration(alias [,label])`
-* Format Indicator
-    * TBD
+| Category | Pattern | Macro | Image | Image URL |
+| -------- | ------- | ----- | ----- | --------- |
+| Message Construction| Message | `Message(alias [,label])` | ![](/sprites/message.png) | | 
+| Message Construction| Command Message | `CommandMessage(alias [,label])` | | | 
+| Message Construction| Document Message | `DocumentMessage(alias [,label])`| | | 
+| Message Construction| Event Message | `EventMessage(alias [,label])` | | | 
+| Message Construction| Request-Reply | `RequestReply(alias [,label])` | | | 
+| Message Construction| Return Address | `ReturnAddress(alias [,label])` | | | 
+| Message Construction| Correlation Identifer | `CorrelationIdentifier(alias [,label])`| | | 
+| Message Construction| Message Sequence | `MessageSequence(alias [,label])`| | | 
+| Message Construction| Message Expiration | `MessageExpiration(alias [,label])`| | | 
+| Message Construction| Format Indicator | NA | | | 
 
 ### Message Routing
 * Pipes and Filters
