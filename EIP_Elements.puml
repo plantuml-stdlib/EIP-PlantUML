@@ -158,7 +158,7 @@ skinparam defaultTextAlignment center
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/Filter.html
 '/
 !define MessageFilter(_alias) rectangle "<$message_filter>" as _alias <<message filter>> 
-!define MessageFilter(_alias, _label) rectangle "<$message_filter>\r_label" as _alias <<message filter>> 
+!define MessageFilter(_alias, _label) rectangle "<$message_filter>\r _label" as _alias <<message filter>> 
 
 /'  EIP Pattern: Dynamic Router
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/DynamicRouter.html
@@ -243,7 +243,7 @@ _alias -- _rulebase
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessageTranslator.html
 '/
 !define MessageTranslator(_alias) rectangle "<$message_translator>" as _alias <<message translator>>
-!define MessageTranslator(_alias, _label) rectangle "<$message_translator>\r_label" as _alias <<message translator>>
+!define MessageTranslator(_alias, _label) rectangle "<$message_translator>\r _label" as _alias <<message translator>>
 
 /'  EIP Pattern: Envelope Wrapper
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/EnvelopeWrapper.html
