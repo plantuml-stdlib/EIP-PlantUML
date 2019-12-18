@@ -502,8 +502,8 @@ skinparam defaultTextAlignment center
   Hide <<content filter>> stereotype
   Hide <<normalizer>> stereotype
   Hide <<message endpoint>> stereotype
-  Hide <<massaging gateway>> stereotype
-  Hide <<massaging mapper>> stereotype
+  Hide <<messaging gateway>> stereotype
+  Hide <<messaging mapper>> stereotype
   Hide <<transactional producer>> stereotype
   Hide <<transactional consumer>> stereotype
   Hide <<polling consumer>> stereotype
@@ -769,14 +769,14 @@ _alias -- _datasource
 /'  EIP Pattern: Messaging Gateway 
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingGateway.html
 '/
-!define MessagingGateway(_alias) rectangle "<$messaging_gateway>" as _alias <<massaging gateway>> 
-!define MessagingGateway(_alias, _label) rectangle "<$messaging_gateway>\r _label" as _alias <<massaging gateway>> 
+!define MessagingGateway(_alias) rectangle "<$messaging_gateway>" as _alias <<messaging gateway>> 
+!define MessagingGateway(_alias, _label) rectangle "<$messaging_gateway>\r _label" as _alias <<messaging gateway>> 
 
 /'  EIP Pattern: Messaging Mapper
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/MessagingMapper.html
 '/
-!define MessagingMapper(_alias) rectangle "<$messaging_mapper>" as _alias <<massaging mapper>> 
-!define MessagingMapper(_alias, _label) rectangle "<$messaging_mapper>\r _label" as _alias <<massaging mapper>> 
+!define MessagingMapper(_alias) rectangle "<$messaging_mapper>" as _alias <<messaging mapper>> 
+!define MessagingMapper(_alias, _label) rectangle "<$messaging_mapper>\r _label" as _alias <<messaging mapper>> 
 
 /'  EIP Pattern: Transactional client
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/TransactionalClient.html
