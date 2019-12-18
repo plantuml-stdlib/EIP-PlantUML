@@ -45,45 +45,30 @@ The following pattern are currently supported:
 
 | Category | Pattern | Macro | Image | Image URL |
 | -------- | ------- | ----- | ----- | --------- |
-| Message Construction| Message | `Message(alias [,label])` | ![](/sprites/message.png) | | 
-| Message Construction| Command Message | `CommandMessage(alias [,label])` | | | 
-| Message Construction| Document Message | `DocumentMessage(alias [,label])`| | | 
-| Message Construction| Event Message | `EventMessage(alias [,label])` | | | 
-| Message Construction| Request-Reply | `RequestReply(alias [,label])` | | | 
-| Message Construction| Return Address | `ReturnAddress(alias [,label])` | | | 
-| Message Construction| Correlation Identifer | `CorrelationIdentifier(alias [,label])`| | | 
-| Message Construction| Message Sequence | `MessageSequence(alias [,label])`| | | 
-| Message Construction| Message Expiration | `MessageExpiration(alias [,label])`| | | 
-| Message Construction| Format Indicator | NA | | | 
-
-### Message Routing
-* Pipes and Filters
-    * `Pipe(from, to)`
-    * `Filter(alias [,label])`
-* Message Router
-    * `MessageRouter(alias [,label])`
-* Message Filter
-    * `MessageFilter(alias [,label])`
-* Dynamic Router
-    * `DynamicRouter(alias [,label], dynamicrulebase)`
-* Recipient List
-    * `RecipientList(alias [,label])`
-* Splitter
-    * `Splitter(alias [,label])`
-* Aggregator
-    * `Aggregator(alias [,label])`
-* Resequencer
-    * `Resequencer(alias [,label])`
-* Composed Message Processor
-    * `ComposedMessageProcessor(alias [,label])`
-* Scatter-Gather
-    * TBD
-* Routing Slip
-    * `RoutingSlip(alias [,label])`
-* Process Manager
-    * `ProcessManager(alias [,label])`
-* Message Broker
-    * `MessageBroker(alias [,label])`
+| Message Construction | Message | `Message(alias [,label])` | ![](/sprites/message.png) | | 
+| Message Construction | Command Message | `CommandMessage(alias [,label])` | | | 
+| Message Construction | Document Message | `DocumentMessage(alias [,label])`| | | 
+| Message Construction | Event Message | `EventMessage(alias [,label])` | | | 
+| Message Construction | Request-Reply | `RequestReply(alias [,label])` | | | 
+| Message Construction | Return Address | `ReturnAddress(alias [,label])` | | | 
+| Message Construction | Correlation Identifer | `CorrelationIdentifier(alias [,label])`| | | 
+| Message Construction | Message Sequence | `MessageSequence(alias [,label])`| | | 
+| Message Construction | Message Expiration | `MessageExpiration(alias [,label])`| | | 
+| Message Construction | Format Indicator | NA | | | 
+| Message Routing | Pipes and Filters | `Pipe(from, to)` ||||
+| Message Routing | Pipes and Filters | `Filter(alias [,label])` | | | |
+| Message Routing | Message Router | `MessageRouter(alias [,label])` | | | |
+| Message Routing | Message Filter | `MessageFilter(alias [,label])` | | | |
+| Message Routing | Dynamic Router | `DynamicRouter(alias [,label], dynamicrulebase)` | | | |
+| Message Routing | Recipient List | `RecipientList(alias [,label])` | | | |
+| Message Routing | Splitter | `Splitter(alias [,label])` | | | |
+| Message Routing | Aggregator | `Aggregator(alias [,label])` | | | |
+| Message Routing | Resequencer | `Resequencer(alias [,label])` | | | |
+| Message Routing | Composed Message Processor | `ComposedMessageProcessor(alias [,label])` | | | |
+| Message Routing | Scatter-Gather | TBD | | | |
+| Message Routing | Routing Slip | `RoutingSlip(alias [,label])` | | | |
+| Message Routing | Process Manager | `ProcessManager(alias [,label])` | | | |
+| Message Routing | Message Broker | `MessageBroker(alias [,label])` | | | |
 
 ### Message Transformation
 
