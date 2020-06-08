@@ -28,7 +28,19 @@ If pattern with sprites are added or existing spirtes are changed, please make s
 * make sure the ``README.md`` file is extended correspondingly
 * once all changes are done, run ``csi mergesprites.csx``, this C# script will merge all .PUML sprites as well as the ``EIP_elements.puml`` into the ``EIP-PlantUML.puml`` file within the ``dist`` folder
 * run ``git add -u``before a checkin as the toolchain above does change various files autoamtically 
-* make sure not to change any file within the ``dist``folder - all files within the folder are automatically generated
+* make sure not to change any file within the ``dist``folder - all files within the folder * Use ´``dotnet tool install -g dotnet-script`` if you need to run the merge script under Windows
+* Run
+```
+c:\dev\EIP-PlantUML\scripts>dotnet-script mergePuml.csx
+EIP-PlantUML Puml Merger
+53 sprites merged
+Merging finished
+
+```
+
+
+
+
 
 ## Committing
 

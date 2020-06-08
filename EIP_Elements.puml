@@ -4,7 +4,7 @@
 
 skinparam defaultTextAlignment center
 
-!function HIDE_STEREOTYPES()
+!procedure HIDE_STEREOTYPES()
   Hide <<message>> stereotype
   Hide <<command message>>  stereotype
   Hide <<document message>>  stereotype
