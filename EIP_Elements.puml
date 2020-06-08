@@ -442,13 +442,13 @@ _alias -- _datasource
     Link: h‚ttps://www.enterpriseintegrationpatterns.com/patterns/messaging/ControlBus.html
 '/
 Hide <<control bus>> stereotype
-!function ControlBus($alias)
+!procedure ControlBus($alias)
   rectangle "<$control_bus>" as $alias <<control bus>> #transparent
   skinparam rectangle {
     BorderColor<<control bus>> transparent
     Shadowing<<control bus>> false
   }  
-!endfunction
+!endprocedure
 
 /'  EIP Pattern: Detour
     Link: https://www.enterpriseintegrationpatterns.com/patterns/messaging/Detour.html
