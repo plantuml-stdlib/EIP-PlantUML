@@ -64,7 +64,7 @@ skinparam defaultTextAlignment center
   Hide <<smart proxy>> stereotype
   Hide <<test message>> stereotype
   Hide <<channel purger>>  stereotype
-!endfunction
+!endprocedure
 
 !define LAYOUT_LEFT_RIGHT() left to right direction
 
