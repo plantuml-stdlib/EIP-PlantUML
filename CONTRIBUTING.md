@@ -37,6 +37,7 @@ EIP-PlantUML Puml Merger
 Merging finished
 
 ```
+* For additional information see https://github.com/filipw/dotnet-script
 
 
 
