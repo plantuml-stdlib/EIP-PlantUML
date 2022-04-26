@@ -202,9 +202,9 @@ ContentFilter(filter3, "secure filter <$claim_check>")
 
 ### Messaging Mapper 
 
-The Messaging Mapper transofrms domain objects into messages required by the messaging mapper and vice versa. 
+The Messaging Mapper transforms domain objects into messages required by the messaging mapper and vice versa. 
 
-Therefore, EAI-PLantUML introduces the following metapher for the Messaging Mapper.
+Therefore, EAI-PlantUML introduces the following metapher for the Messaging Mapper.
 
 ![Messaging Mapper Metapher](images/messaging_mapper.png)
 
